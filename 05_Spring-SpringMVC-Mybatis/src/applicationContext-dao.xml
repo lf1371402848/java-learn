@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--加载属性配置文件-->
+    <!--    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>-->
+    <!--创建数据源的bean-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/test"></property>
+        <property name="username" value="test"></property>
+        <property name="password" value="test"></property>
+    </bean>
+    <!--创建SqlSessionFactory的bean-->
+    <bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <!--当mybatis的xml文件和mapper接口不在相同包下时，需要用mapperLocations属性指定xml文件的路径-->
+        <property name="mapperLocations" value="classpath:com/test/mapper/*.xml"></property>
+        <!--配置bean的别名-->
+        <property name="typeAliasesPackage" value="com.test.bean"></property>
+    </bean>
+    <!--自动扫描目录在com.test.mapper目录下的mapper,将其转换成MapperFactoryBean
+        注意:
+            在spring里使用org.mybatis.spring.mapper.MapperScannerConfigurer进行自动扫描的时候，设置了sqlSessionFactory 的话，
+        可能会导致PropertyPlaceholderConfigurer失效，也就是用${jdbc.username}这样之类的表达式，将无法获取到properties文件里的内容。
+        导致这一原因是因为，MapperScannerConfigure实际是在解析加载bean定义阶段的，这个时候要是设置sqlSessionFactory的话，
+        会导致提前初始化一些类，这个时候，PropertyPlaceholderConfigurer还没来得及替换定义中的变量，导致把表达式当作字符串复制了。
+        但如果不设置sqlSessionFactory 属性的话，就必须要保证sessionFactory在spring中名称一定要是sqlSessionFactory ，否
+        则就无法自动注入。又或者直接定义 MapperFactoryBean ，再或者放弃自动代理接口方式。 -->
+    <bean id="mapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 改用sqlSessionFactoryBeanName注入就没有问题,因为这时不会立即初始化sqlSessionFactory,所以不会引发提前初始化问题 -->
+        <property name="sqlSessionFactoryBeanName" value="factory"/>
+        <!--这里不注入sqlSessionFactory也是可以的，MapperScannerConfigurer将会创建MapperFactoryBean之后自动装配。-->
+        <!--        <property name="sqlSessionFactory" ref="factory"></property>-->
+        <property name="basePackage" value="com.test.mapper"></property>
+    </bean>
+</beans>

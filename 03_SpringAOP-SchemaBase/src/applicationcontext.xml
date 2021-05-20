@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--声明Student的bean-->
+    <bean id="student" class="com.test.bean.Student"></bean>
+    <!--配置通知bean-->
+        <!--前置通知bean-->
+        <bean id="before" class="com.test.advice.BeforeAdvice"></bean>
+        <!--后置通知bean-->
+        <bean id="after" class="com.test.advice.AfterAdvice"></bean>
+        <!--环绕通知bean-->
+        <bean id="round" class="com.test.advice.RoundAdvice"></bean>
+        <!--异常通知bean-->
+        <bean id="exception" class="com.test.advice.ExceptionAdvice"></bean>
+    <!--配置组装规则-->
+    <aop:config>
+        <!--声明切点-->
+        <aop:pointcut id="pt" expression="execution(* com.test.bean.Student.testStudent(String,int))"/>
+        <aop:advisor advice-ref="before" pointcut-ref="pt"></aop:advisor>
+        <aop:advisor advice-ref="after" pointcut-ref="pt"></aop:advisor>
+        <aop:advisor advice-ref="round" pointcut-ref="pt"></aop:advisor>
+        <aop:advisor advice-ref="exception" pointcut-ref="pt"></aop:advisor>
+    </aop:config>
+</beans>

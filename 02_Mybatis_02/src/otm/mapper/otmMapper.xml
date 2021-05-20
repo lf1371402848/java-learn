@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="otm.mapper.OtmMapper">
+
+    <insert id="insertAddress">
+        <selectKey keyColumn="addr_id" keyProperty="addrId"
+                   order="BEFORE" resultType="int">
+            select my_seq.nextval from dual
+        </selectKey>
+        insert into addresses values(#{addrId},#{street},#{city},#{state},#{zip},#{country})
+    </insert>
+
+    <insert id="insertTutor">
+        <selectKey keyColumn="tutor_id" keyProperty="tutorId"
+                   order="BEFORE" resultType="int">
+            select my_seq.nextval from dual
+        </selectKey>
+        insert into tutors values(#{tutorId},#{name},#{email},#{phone},#{addresses.addrId})
+    </insert>
+    <insert id="insertCourse">
+        <selectKey keyColumn="course_id" keyProperty="courseId"
+                   order="BEFORE" resultType="int">
+            select my_seq.nextval from dual
+        </selectKey>
+        insert into courses values(#{courseId},#{name},#{description},#{startDate},#{endDate},#{tutor.tutorId})
+    </insert>
+    <resultMap type="Addresses" id="addressResult">
+        <id property="addrId" column="addr_id"/>
+        <result property="street" column="street"/>
+        <result property="city" column="city"/>
+        <result property="state" column="state"/>
+        <result property="zip" column="zip"/>
+        <result property="country" column="country"/>
+    </resultMap>
+
+    <resultMap type="Course" id="CourseResult">
+        <id column="course_id" property="courseId"/>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="start_date" property="startDate"/>
+        <result column="end_date" property="endDate"/>
+    </resultMap>
+
+    <select id="findAddressesById" parameterType="int" resultMap="addressResult">
+        select *
+        from addresses
+        where addr_id = #{id}
+    </select>
+    <select id="findCourseesByid" parameterType="int" resultMap="CourseResult">
+        select *
+        from courses
+        where tutor_id = #{id}
+
+    </select>
+
+    <resultMap type="Tutor" id="tutorWithAddressAndcourseResult">
+        <id column="tutor_id" property="tutorId"/>
+        <result column="tname" property="name"/>
+        <result column="email" property="email"/>
+        <association property="addresses" column="addr_id" select="findAddressesById"></association>
+        <collection property="courses" column="tutor_id" select="findCourseesByid"></collection>
+    </resultMap>
+    <select id="findTutorWithAddressAndCourseById" parameterType="int" resultMap="tutorWithAddressAndcourseResult">
+        select *
+        from tutors
+        where tutor_id = #{id}
+    </select>
+
+</mapper>

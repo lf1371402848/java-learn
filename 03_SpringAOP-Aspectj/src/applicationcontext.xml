@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--声明Student的bean-->
+    <bean id="student" class="com.test.bean.Student"></bean>
+    <!--配置通知bean-->
+    <bean id="advice" class="com.test.advice.MyAdvice"></bean>
+    <!--配置组装规则-->
+    <aop:config>
+        <aop:aspect ref="advice"><!-- 声明通知bean的id -->
+            <!--声明切点-->
+            <aop:pointcut id="pt" expression="execution(* com.test.bean.Student.testStudent(String,int)) and args(name,age)"/>
+            <!-- 声明扩展方法 -->
+            <aop:before method="before" pointcut-ref="pt" arg-names="name,age"/>
+            <!-- 异常出现会执行后置通知 -->
+            <!--            <aop:after method="after" pointcut-ref="pt" arg-names="name,age"/>-->
+            <!-- 异常出现不会执行后置通知 -->
+            <aop:after-returning method="after" pointcut-ref="pt" arg-names="name,age"/>
+            <aop:around method="round" pointcut-ref="pt"/>
+            <aop:after-throwing method="exception" pointcut-ref="pt" throwing="e"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

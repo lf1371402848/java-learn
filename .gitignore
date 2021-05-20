@@ -1,0 +1,17 @@
+# idea ignore
+/.idea/
+*.ipr
+*.iml
+*.iws
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+.vscode
+target/
+out/

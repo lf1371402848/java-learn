@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byName"> <!--设置自动注入-->
+    <!-- IOC创建对象的方式：Spring容器对象在被创建的时候，就完成了配置文件中类对象资源的初始化创建， 直接从容器中获取使用-->
+        <!-- 1、通过构造器方式 -->
+            <!--1.1 无参数构造器:默认方式-->
+            <bean id="student_by_default" class="com.test.bean.Student"></bean>
+            <!--1.2 有参数构造器-->
+            <bean id="student_by_constructor" class="com.test.bean.Student">
+                <constructor-arg index="0" name="sid" type="java.lang.Integer" value="1"/>
+                <constructor-arg index="1" name="sname" type="java.lang.String" value="张三"/>
+                <constructor-arg index="2" name="fav" type="java.lang.String" value="student_by_constructor"/>
+                <constructor-arg index="3" name="teacher_by_auto" ref="teacher_by_auto"/>
+            </bean>
+        <!-- 2、通过属性注入方式 -->
+            <bean id="student_by_property" class="com.test.bean.Student">
+                <property name="sid" value="1"/>
+                <property name="sname" value="张三"/>
+                <property name="fav" value="student_by_property"/>
+            </bean>
+        <!-- 3、通过工厂创建对象 需要创建的对象存在依赖责任链-->
+            <!-- 3.1、动态工厂方式-->
+            <bean id="by_factory" class="com.test.bean.StudentFactory"/>
+            <bean id="student_by_factory" factory-bean="by_factory" factory-method="newIntance"/>
+            <!-- 3.2、静态工厂方式-->
+            <bean id="student_by_staticFactory" class="com.test.bean.StudentStaticFactory" factory-method="newIntance"/>
+    <!-- DI依赖注入：Spring容器根据对象之间的依赖关系完成对象的创建以及组装的过程 -->
+        <bean id="student_by_di" class="com.test.bean.Student">
+            <property name="sid" value="1"/>
+            <property name="sname" value="张三"/>
+            <property name="fav" value="student_by_di"/>
+            <property name="teacher_by_auto" ref="teacher_by_di"/>
+        </bean>
+        <bean id="teacher_by_di" class="com.test.bean.Teacher">
+            <property name="tid" value="1"/>
+            <property name="tname" value="李四"/>
+            <property name="fav" value="teacher_by_di"/>
+        </bean>
+    <!-- 自动注入：Spring容器对象依赖关系的注入规则，Spring容器对象自动根据规则完成依赖关系的注入 -->
+        <!-- 1、通过byName方式：按照属性名和某个bean的id相同的规则自动注入 -->
+        <bean id="student_by_AutoName" class="com.test.bean.Student" autowire="byName">
+            <property name="sid" value="1"/>
+            <property name="sname" value="张三"/>
+            <property name="fav" value="学习"/>
+        </bean>
+        <bean id="teacher_by_auto" class="com.test.bean.Teacher">
+            <property name="tid" value="1"/>
+            <property name="tname" value="李四"/>
+            <property name="fav" value="teacher_by_AutoName"/>
+        </bean>
+        <!-- 2、通过byType方式：按照属性的类型和某个bean的类型相同的规则自动注入
+                注意：同类型的bean不能重复注入-->
+            <bean id="student_by_AutoType" class="com.test.bean.Student" autowire="byType">
+                <property name="sid" value="1"/>
+                <property name="sname" value="张三"/>
+                <property name="fav" value="学习"/>
+            </bean>
+            <bean id="teacher_by_auto" class="com.test.bean.Teacher">
+                <property name="tid" value="1"/>
+                <property name="tname" value="李四"/>
+                <property name="fav" value="teacher_by_AutoType"/>
+            </bean>
+        <!-- 3、通过constructor方式：必须声明对应的构造器,根据构造器形参的类型和某个bean的类型相同的规则自动注入 -->
+        <bean id="student_by_AutoConstructor" class="com.test.bean.Student" autowire="constructor">
+            <constructor-arg index="0" name="sid" type="java.lang.Integer" value="1"/>
+            <constructor-arg index="1" name="sname" type="java.lang.String" value="张三"/>
+            <constructor-arg index="2" name="fav" type="java.lang.String" value="student_by_AutoConstructor"/>
+        </bean>
+        <bean id="teacher_by_auto" class="com.test.bean.Teacher">
+            <property name="tid" value="1"/>
+            <property name="tname" value="李四"/>
+            <property name="fav" value="teacher_by_AutoConstructor"/>
+        </bean>
+    <!-- 单例模式：默认模式，在bean标签上使用scope属性，默认值为singleton
+         多例模式：在bean标签上使用scope属性设置，值为prototype -->
+        <bean id="student_by_prototype" scope="prototype" class="com.test.bean.Student">
+            <property name="sid" value="1"/>
+            <property name="sname" value="张三"/>
+            <property name="fav" value="学习"/>
+        </bean>
+</beans>
