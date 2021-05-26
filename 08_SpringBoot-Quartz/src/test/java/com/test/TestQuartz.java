@@ -4,9 +4,13 @@ import com.test.quartz.MyJob;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.quartz.*;
+import org.quartz.impl.matchers.GroupMatcher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import java.util.List;
+import java.util.Set;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = MainApplication.class )
@@ -74,6 +78,28 @@ public class TestQuartz {
         JobKey jobKey = new JobKey("name1", "group1");
         //2.让任务调度器重新调用该任务
         scheduler.resumeJob(jobKey);
+
+    }
+
+    @Test
+    public void testQueryQuartz(){
+        try {
+            GroupMatcher<JobKey> groupMatcher = GroupMatcher.anyJobGroup();
+            Set<JobKey> jobKeySet = scheduler.getJobKeys(groupMatcher);
+            for(JobKey jobKey : jobKeySet){
+                List<? extends Trigger> listTriggers = scheduler.getTriggersOfJob(jobKey);
+                System.out.println("=========================================");
+                for(Trigger trigger : listTriggers){
+                    System.out.println(jobKey.getName());
+                    System.out.println(jobKey.getGroup());
+                    System.out.println(scheduler.getTriggerState(trigger.getKey()));
+                    System.out.println(((CronTrigger) trigger).getCronExpression());
+                }
+                System.out.println("==========================================");
+            }
+        } catch (SchedulerException e) {
+            e.printStackTrace();
+        }
 
     }
 }
