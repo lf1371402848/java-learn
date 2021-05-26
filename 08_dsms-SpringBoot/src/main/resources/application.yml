@@ -1,0 +1,21 @@
+# 端口配置
+server:
+  port: 10086
+# 配置数据库连接参数
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: dsms
+    password: dsms
+    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+  # mvc 配置
+  mvc:
+    view:
+      prefix: /WEB-INF/content/
+      suffix: .jsp
+# mybatis 配置
+mybatis:
+  # 加载MyBatis的mapper.xml
+  mapper-locations: classpath:mapper/*.xml
+  # 设置实体类包别名
+  type-aliases-package: com.test.bean
