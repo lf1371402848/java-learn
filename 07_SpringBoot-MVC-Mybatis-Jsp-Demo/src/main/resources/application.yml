@@ -1,18 +1,18 @@
 # 端口配置
 server:
   port: 10086
-#配置数据库连接参数
+# 配置数据库连接参数
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: test
     password: test
     url: jdbc:mysql://localhost:3306/test
-    # mvc 配置
-    mvc:
-      view:
-        prefix: /WEB-INF/
-        suffix: .jsp
+  # mvc 配置
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
 # mybatis 配置
 mybatis:
   # 加载MyBatis的mapper.xml

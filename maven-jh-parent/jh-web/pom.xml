@@ -26,21 +26,4 @@
             <artifactId>jstl</artifactId>
         </dependency>
     </dependencies>
-
-    <!-- 引入的第三方的插件 -->
-    <build>
-        <plugins>
-            <plugin>
-                <!-- 引入的第三方的插件资源坐标 -->
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <port>10086</port>
-                    <!-- 发布进去叫做ROOT -->
-                    <path>/</path>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
