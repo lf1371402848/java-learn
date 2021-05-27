@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jh-mapper" />
+        <module name="maven-jar-demo" />
+        <module name="jh-service" />
+        <module name="maven-war-demo" />
+        <module name="jh-bean" />
+        <module name="maven-child" />
+        <module name="jh-web" />
+        <module name="09_SpirngCloud-Eureka-Server" />
+        <module name="ribbon-service" />
+        <module name="08_dsms-SpringBoot" />
+        <module name="ribbon-client" />
+        <module name="08_SpringBoot-Quartz" />
+        <module name="07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo" />
+        <module name="07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
+        <module name="07_SpringBoot-MVC-Demo" />
+        <module name="07_SpringBoot-MVC-Mybatis-Demo" />
+        <module name="ribbon-service2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="07_SpringBoot-MVC-Demo" target="1.8" />
+      <module name="07_SpringBoot-MVC-Mybatis-Demo" target="1.8" />
+      <module name="07_SpringBoot-MVC-Mybatis-Jsp-Demo" target="1.8" />
+      <module name="07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo" target="1.8" />
+      <module name="08_dsms-SpringBoot" target="1.8" />
+      <module name="08_SpringBoot-Quartz" target="1.8" />
+      <module name="09_SpirngCloud-Eureka-Server" target="1.8" />
+      <module name="09_SpirngCloud-Ribbon" target="1.8" />
+      <module name="dsms-SSM" target="1.8" />
+      <module name="jh-bean" target="1.8" />
+      <module name="jh-mapper" target="1.8" />
+      <module name="jh-pojo" target="1.5" />
+      <module name="jh-service" target="1.8" />
+      <module name="jh-web" target="1.8" />
+      <module name="maven-child" target="1.8" />
+      <module name="maven-jar-demo" target="1.8" />
+      <module name="maven-jh-parent" target="1.8" />
+      <module name="maven-parent" target="1.8" />
+      <module name="maven-war-demo" target="1.8" />
+      <module name="mvn-jar" target="1.8" />
+      <module name="mvn-war" target="1.8" />
+      <module name="ribbon-client" target="1.8" />
+      <module name="ribbon-client2" target="1.8" />
+      <module name="ribbon-service" target="1.8" />
+      <module name="ribbon-service2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="07_SpringBoot-MVC-Demo" options="-parameters" />
+      <module name="07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo" options="-parameters" />
+      <module name="07_SpringBoot-MVC-Mybatis-Demo" options="-parameters" />
+      <module name="07_SpringBoot-MVC-Mybatis-Jsp-Demo" options="-parameters" />
+      <module name="08_dsms-SpringBoot" options="-parameters" />
+      <module name="09_SpirngCloud-Eureka-Server" options="-parameters" />
+      <module name="09_SpirngCloud-Ribbon" options="-parameters" />
+      <module name="ribbon-client" options="-parameters" />
+      <module name="ribbon-client2" options="-parameters" />
+      <module name="ribbon-service" options="-parameters" />
+      <module name="ribbon-service2" options="-parameters" />
+    </option>
+  </component>
+</project>

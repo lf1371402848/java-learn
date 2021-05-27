@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/dsms-SSM-1" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-jh-parent/jh-web" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-war-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/mvn-war" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpirngMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-jh-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot-MVC-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-jar-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-war-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-jh-parent/jh-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-jh-parent/jh-service/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-jh-parent/jh-web/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-parent/maven-child/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-jh-parent/jh-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-MVC-MyBatis-Thymeleaf-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/08_SpringBoot-Quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/dsms-SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/08_dsms-SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpirngCloud-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpirngCloud-Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/08_dsms-SpringBoot/src/main/resources/db.properties" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
