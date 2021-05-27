@@ -1,0 +1,19 @@
+server:
+  # WEB端口、服务注册发现端口，Eureka默认端口为8761
+  port: 8082
+
+# 当前Spring应用名称，默认为null，相同命名的应用会注册到同一个服务集群中
+spring:
+  application:
+    name: ribbon-client
+
+# Eureka配置
+eureka:
+  client:
+    # 修改注册中心地址，集群时，用逗号分隔多个地址，Eureka默认地址为http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+# 设置负载均衡策略。application-service为设置负载均衡的服务名称
+#ribbon-service:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
