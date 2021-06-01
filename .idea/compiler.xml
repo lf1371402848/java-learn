@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jh-mapper" />
+        <module name="cloud-eureka-server7001" />
         <module name="maven-jar-demo" />
         <module name="jh-service" />
         <module name="maven-war-demo" />
         <module name="jh-bean" />
         <module name="maven-child" />
+        <module name="cloud-consumer-feign-hystrix-order10001" />
         <module name="jh-web" />
         <module name="09_SpirngCloud-Eureka-Server" />
         <module name="ribbon-service" />
@@ -19,7 +22,9 @@
         <module name="ribbon-client" />
         <module name="08_SpringBoot-Quartz" />
         <module name="07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo" />
+        <module name="cloud-provider-hystrix-payment8001" />
         <module name="07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
+        <module name="09_SpringCloud-OpenFeign" />
         <module name="07_SpringBoot-MVC-Demo" />
         <module name="07_SpringBoot-MVC-Mybatis-Demo" />
         <module name="ribbon-service2" />
@@ -34,6 +39,12 @@
       <module name="08_SpringBoot-Quartz" target="1.8" />
       <module name="09_SpirngCloud-Eureka-Server" target="1.8" />
       <module name="09_SpirngCloud-Ribbon" target="1.8" />
+      <module name="09_SpringCloud-Hystrix" target="1.8" />
+      <module name="09_SpringCloud-OpenFeign" target="1.8" />
+      <module name="cloud-consumer-feign-hystrix-order10001" target="1.8" />
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-provider-hystrix-payment8001" target="1.8" />
       <module name="dsms-SSM" target="1.8" />
       <module name="jh-bean" target="1.8" />
       <module name="jh-mapper" target="1.8" />
@@ -62,6 +73,11 @@
       <module name="08_dsms-SpringBoot" options="-parameters" />
       <module name="09_SpirngCloud-Eureka-Server" options="-parameters" />
       <module name="09_SpirngCloud-Ribbon" options="-parameters" />
+      <module name="09_SpringCloud-OpenFeign" options="-parameters" />
+      <module name="cloud-consumer-feign-hystrix-order10001" options="-parameters" />
+      <module name="cloud-consumer-order80" options="-parameters" />
+      <module name="cloud-eureka-server7001" options="-parameters" />
+      <module name="cloud-provider-hystrix-payment8001" options="-parameters" />
       <module name="ribbon-client" options="-parameters" />
       <module name="ribbon-client2" options="-parameters" />
       <module name="ribbon-service" options="-parameters" />

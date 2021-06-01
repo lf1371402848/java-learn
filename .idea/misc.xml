@@ -36,11 +36,12 @@
         <option value="$PROJECT_DIR$/09_SpirngCloud-Ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/pom.xml" />
         <option value="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud-OpenFeign/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud-Hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order80/pom.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/08_dsms-SpringBoot/src/main/resources/db.properties" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

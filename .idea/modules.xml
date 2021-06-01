@@ -26,6 +26,11 @@
       <module fileurl="file://$PROJECT_DIR$/08_dsms-SpringBoot/08_dsms-SpringBoot.iml" filepath="$PROJECT_DIR$/08_dsms-SpringBoot/08_dsms-SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/09_SpirngCloud-Eureka-Server.iml" filepath="$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/09_SpirngCloud-Eureka-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_SpirngCloud-Ribbon/09_SpirngCloud-Ribbon.iml" filepath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/09_SpirngCloud-Ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/09_SpringCloud-Hystrix.iml" filepath="$PROJECT_DIR$/09_SpringCloud-Hystrix/09_SpringCloud-Hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_SpringCloud-OpenFeign/09_SpringCloud-OpenFeign.iml" filepath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/09_SpringCloud-OpenFeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/cloud-consumer-feign-hystrix-order10001.iml" filepath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/cloud-consumer-feign-hystrix-order10001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/cloud-eureka-server7001.iml" filepath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/cloud-eureka-server7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" filepath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-learn.iml" filepath="$PROJECT_DIR$/java-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-jh-parent/jh-bean/jh-bean.iml" filepath="$PROJECT_DIR$/maven-jh-parent/jh-bean/jh-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-jh-parent/jh-mapper/jh-mapper.iml" filepath="$PROJECT_DIR$/maven-jh-parent/jh-mapper/jh-mapper.iml" />
