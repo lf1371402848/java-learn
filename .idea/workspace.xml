@@ -4,39 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/OrderHystrixMain10001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/java/com/test/springcloud/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/OpenFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/test/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/test/ClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/OrderHystrixMain10001.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/OrderHystrixMain10001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentHystrixService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,7 +252,8 @@
       <workItem from="1622376095504" duration="8790000" />
       <workItem from="1622390126238" duration="1285000" />
       <workItem from="1622511013362" duration="1667000" />
-      <workItem from="1622512777469" duration="5889000" />
+      <workItem from="1622512777469" duration="6022000" />
+      <workItem from="1622563812116" duration="6555000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1622034842482</created>
@@ -316,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622134038031</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交">
+      <created>1622520476872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622520476872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -11,3 +11,8 @@ eureka:
     fetch-registry: true     #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
     service-url:
       defaultZone: http://localhost:7001/eureka/
+
+# 开启Feign对Hystrix的支持,默认是false
+feign:
+  hystrix:
+    enabled: true
