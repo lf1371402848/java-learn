@@ -1,0 +1,29 @@
+server:
+  # WEB端口、服务注册发现端口，Eureka默认端口为8761
+  port: 30002
+
+# 当前Spring应用名称，默认为null，相同命名的应用会注册到同一个服务集群中
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    #Config客户端配置
+    config:
+      label: master #分支名称
+      name: config #配置文件名称
+      profile: dev #读取后缀名称   上述3个综合：master分支上config-dev.yml的配置文件被读取http://config-3344.com:3344/master/config-dev.yml
+      uri: http://localhost:30001 #配置中心地址k
+
+# Eureka配置
+eureka:
+  client:
+    # 修改注册中心地址，集群时，用逗号分隔多个地址，Eureka默认地址为http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -11,6 +11,9 @@
     <file url="file://$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java" charset="UTF-8" />

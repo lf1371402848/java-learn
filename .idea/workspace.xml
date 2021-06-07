@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java/com/test/ConfigClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java/com/test/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/java/com.test/ConfigServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java/com/test/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/OrderHystrixMain10001.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/OrderHystrixMain10001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order80" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -91,11 +97,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Config-Client\src\main\resources" />
+      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Config-Server\src\main\resources" />
+      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Gateway\src\main\resources" />
+      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Gateway\src\main\java" />
       <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Hystrix" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-OpenFeign\src\main\java\com\test" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-OpenFeign\src\main" />
-      <recent name="E:\Learn\Java\java-learn\09_SpirngCloud-Ribbon" />
-      <recent name="E:\Learn\Java\java-learn\09_SpirngCloud-Ribbon\ribbon-client2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Learn\Java\java-learn\09_SpirngCloud-Ribbon\ribbon-appservice\src\main\java" />
@@ -104,8 +110,8 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.test.controller" />
-      <recent name="com.test.bean" />
       <recent name="com.test" />
+      <recent name="com.test.bean" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,15 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,7 +257,12 @@
       <workItem from="1622390126238" duration="1285000" />
       <workItem from="1622511013362" duration="1667000" />
       <workItem from="1622512777469" duration="6022000" />
-      <workItem from="1622563812116" duration="6555000" />
+      <workItem from="1622563812116" duration="8077000" />
+      <workItem from="1622618865942" duration="3757000" />
+      <workItem from="1622812265671" duration="723000" />
+      <workItem from="1622959087118" duration="3294000" />
+      <workItem from="1623002957276" duration="3265000" />
+      <workItem from="1623048578654" duration="5718000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1622034842482</created>
@@ -304,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622520476872</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交">
+      <created>1622572444830</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622572444830</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

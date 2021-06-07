@@ -40,6 +40,11 @@
         <option value="$PROJECT_DIR$/09_SpringCloud-Hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" />
         <option value="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/09_Spring-Cloud-Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud-Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud-Config-Client/pom.xml" />
+        <option value="$PROJECT_DIR$/03_Spring/pom.xml" />
       </list>
     </option>
   </component>
