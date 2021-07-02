@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Demo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08_dsms-SpringBoot/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Eureka-Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java" charset="UTF-8" />
   </component>
 </project>

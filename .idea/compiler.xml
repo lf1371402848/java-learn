@@ -9,10 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server7001" />
         <module name="maven-war-demo" />
-        <module name="03_Spring" />
-        <module name="09_SpirngCloud-Eureka-Server" />
+        <module name="Jedis" />
         <module name="ribbon-service" />
         <module name="08_dsms-SpringBoot" />
+        <module name="09_SpringCloud-Eureka-Server" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
         <module name="09_SpringCloud-OpenFeign" />
@@ -23,37 +23,43 @@
         <module name="maven-jar-demo" />
         <module name="09_SpringCloud-Config-Client" />
         <module name="jh-service" />
-        <module name="jh-bean" />
         <module name="maven-child" />
+        <module name="jh-bean" />
+        <module name="07_SpringBoot-Quartz" />
         <module name="cloud-consumer-feign-hystrix-order10001" />
         <module name="jh-web" />
         <module name="09_SpringCloud-Config-Server" />
         <module name="ribbon-client" />
-        <module name="08_SpringBoot-Quartz" />
         <module name="07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo" />
+        <module name="SpringBoot-Redis" />
         <module name="ribbon-service2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="00_Maven" target="1.8" />
       <module name="03_Spring" target="1.8" />
+      <module name="07_SpringBoot" target="1.8" />
       <module name="07_SpringBoot-MVC-Demo" target="1.8" />
       <module name="07_SpringBoot-MVC-Mybatis-Demo" target="1.8" />
       <module name="07_SpringBoot-MVC-Mybatis-Jsp-Demo" target="1.8" />
       <module name="07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo" target="1.8" />
+      <module name="07_SpringBoot-Quartz" target="1.8" />
       <module name="08_dsms-SpringBoot" target="1.8" />
-      <module name="08_SpringBoot-Quartz" target="1.8" />
-      <module name="09_SpirngCloud-Eureka-Server" target="1.8" />
-      <module name="09_SpirngCloud-Ribbon" target="1.8" />
+      <module name="09_SpringCloud" target="1.8" />
       <module name="09_SpringCloud-Config-Client" target="1.8" />
       <module name="09_SpringCloud-Config-Server" target="1.8" />
+      <module name="09_SpringCloud-Eureka-Server" target="1.8" />
       <module name="09_SpringCloud-Gateway" target="1.8" />
       <module name="09_SpringCloud-Hystrix" target="1.8" />
       <module name="09_SpringCloud-OpenFeign" target="1.8" />
+      <module name="09_SpringCloud-Ribbon" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order10001" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-provider-hystrix-payment8001" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="dsms-SSM" target="1.8" />
+      <module name="Jedis" target="1.8" />
       <module name="jh-bean" target="1.8" />
       <module name="jh-mapper" target="1.8" />
       <module name="jh-pojo" target="1.5" />
@@ -70,6 +76,8 @@
       <module name="ribbon-client2" target="1.8" />
       <module name="ribbon-service" target="1.8" />
       <module name="ribbon-service2" target="1.8" />
+      <module name="Springboot-Redis" target="1.8" />
+      <module name="SpringBoot-Redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -79,16 +87,18 @@
       <module name="07_SpringBoot-MVC-Mybatis-Demo" options="-parameters" />
       <module name="07_SpringBoot-MVC-Mybatis-Jsp-Demo" options="-parameters" />
       <module name="08_dsms-SpringBoot" options="-parameters" />
-      <module name="09_SpirngCloud-Eureka-Server" options="-parameters" />
-      <module name="09_SpirngCloud-Ribbon" options="-parameters" />
       <module name="09_SpringCloud-Config-Client" options="-parameters" />
       <module name="09_SpringCloud-Config-Server" options="-parameters" />
+      <module name="09_SpringCloud-Eureka-Server" options="-parameters" />
       <module name="09_SpringCloud-Gateway" options="-parameters" />
       <module name="09_SpringCloud-OpenFeign" options="-parameters" />
+      <module name="09_SpringCloud-Ribbon" options="-parameters" />
+      <module name="SpringBoot-Redis" options="-parameters" />
       <module name="cloud-consumer-feign-hystrix-order10001" options="-parameters" />
       <module name="cloud-consumer-order80" options="-parameters" />
       <module name="cloud-eureka-server7001" options="-parameters" />
       <module name="cloud-provider-hystrix-payment8001" options="-parameters" />
+      <module name="demo" options="" />
       <module name="ribbon-client" options="-parameters" />
       <module name="ribbon-client2" options="-parameters" />
       <module name="ribbon-service" options="-parameters" />
