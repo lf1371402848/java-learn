@@ -1,0 +1,19 @@
+server:
+  # WEB端口、服务注册发现端口，Eureka默认端口为8761
+  port: 8761
+
+# 当前Spring应用名称，默认为null，相同命名的应用会注册到同一个服务集群中
+spring:
+  application:
+    name: SpringCloud-Eureka-Server
+
+# Eureka配置
+eureka:
+  client:
+    # 是否将自己注册到Eureka-Server中，注册中心集群环境下需开启此配置，默认为true
+    register-with-eureka: false
+    # 是否从Eureka-Server中获取服务注册信息，默认为true
+    fetch-registry: false
+    # 修改注册中心地址，集群时，用逗号分隔多个地址，Eureka默认地址为http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

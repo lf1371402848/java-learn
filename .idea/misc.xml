@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Demo" />
-    <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-web" />
+    <file type="web" url="file://$PROJECT_DIR$/00_Maven/maven-war-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
     <file type="web" url="file://$PROJECT_DIR$/dsms-SSM-1" />
-    <file type="web" url="file://$PROJECT_DIR$/maven-jh-parent/jh-web" />
-    <file type="web" url="file://$PROJECT_DIR$/maven-war-demo" />
     <file type="web" url="file://$PROJECT_DIR$/mvn-war" />
   </component>
   <component name="MavenProjectsManager">
@@ -45,10 +45,27 @@
         <option value="$PROJECT_DIR$/09_SpringCloud-Config-Server/pom.xml" />
         <option value="$PROJECT_DIR$/09_SpringCloud-Config-Client/pom.xml" />
         <option value="$PROJECT_DIR$/03_Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/00_Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Eureka-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/10_redis/Jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Redis/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Redis/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

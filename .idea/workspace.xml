@@ -4,23 +4,390 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java/com/test/ConfigClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java/com/test/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/java/com.test/ConfigServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java/com/test/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="提交">
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/ThreadTest/Create_Thread_Way/src/com/test/Way01_Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/ThreadTest/Create_Thread_Way/src/com/test/Way02_Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/ThreadTest/Create_Thread_Way/src/com/test/Way03_Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Eureka-Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Eureka-Server/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Eureka-Server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/ribbon/MyIRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/test/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/test/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/test/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/test/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/test/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service/src/main/java/com/test/ServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service/src/main/java/com/test/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service/src/main/java/com/test/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service2/src/main/java/com/test/ServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service2/src/main/java/com/test/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service2/src/main/java/com/test/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-service2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Redis/Jedis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Redis/Jedis/src/main/java/com/test/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/test/java/com/test/TestDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/lib/mybatis-3.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/lib/mybatis-3.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/lib/ojdbc14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/lib/ojdbc14.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/TestMybatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/bean/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/bean/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/handlers/PhoneTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/handlers/PhoneTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/mapper/studentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/mapper/studentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_01/src/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/src/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/lib/mybatis-3.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/lib/mybatis-3.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/lib/ojdbc14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/lib/ojdbc14.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/OTMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/OTMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/otm/bean/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/otm/bean/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/otm/bean/Tutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/otm/bean/Tutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/otm/mapper/OtmMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/otm/mapper/OtmMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/otm/mapper/otmMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/otm/mapper/otmMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/oto/OTOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/oto/OTOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/oto/bean/Addresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/oto/bean/Addresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/oto/bean/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/oto/bean/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/oto/mapper/OtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/oto/mapper/OtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Mybatis_02/src/oto/mapper/otoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/src/oto/mapper/otoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/lib/asm-3.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/lib/asm-3.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/lib/cglib-2.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/lib/javassist-3.17.1-GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/CglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/CglibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/CglibProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/CglibProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/MyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/MyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/JdkProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/JdkProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/MyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_jdk/MyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/static_proxy/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/static_proxy/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/static_proxy/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/static_proxy/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/static_proxy/HelloServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/static_proxy/HelloServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring-Proxy/src/com/test/static_proxy/HelloServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/static_proxy/HelloServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/src/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/src/com/test/TestAopAspectj.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/TestAopAspectj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/src/com/test/advice/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/advice/MyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/src/com/test/bean/StudentInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/bean/StudentInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/aopalliance.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/aopalliance.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Anno/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/src/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/src/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/src/com/test/TestAopAspectj.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/src/com/test/TestAopAspectj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/src/com/test/advice/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/src/com/test/advice/MyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/src/com/test/bean/StudentInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/src/com/test/bean/StudentInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/aopalliance.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/aopalliance.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-Aspectj/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/com/test/TestAopSchemaBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/com/test/TestAopSchemaBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/com/test/advice/AfterAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/com/test/advice/AfterAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/com/test/advice/BeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/com/test/advice/BeforeAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/com/test/advice/ExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/com/test/advice/ExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/com/test/advice/RoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/com/test/advice/RoundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/src/com/test/bean/StudentInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/src/com/test/bean/StudentInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/aopalliance.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/aopalliance.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringAOP-SchemaBase/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/src/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/src/com/test/bean/StudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/StudentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/src/com/test/bean/StudentStaticFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/StudentStaticFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/src/com/test/bean/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-01/src/com/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/src/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/src/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/src/com/test/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/src/com/test/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/src/com/test/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/src/com/test/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/src/com/test/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/src/com/test/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/src/com/test/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/src/com/test/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/src/com/test/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/src/com/test/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/src/com/test/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/src/com/test/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/asm-3.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/cglib-2.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javassist-3.17.1-GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.annotation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.jms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.jms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.resource.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.resource.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.servlet.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.servlet.jsp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/javax.transaction.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/log4j-api-2.0-rc1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/log4j-core-2.0-rc1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/mybatis-3.5.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/mybatis-spring-2.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/mysql-connector-java-5.1.30.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-jdbc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-jdbc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-tx-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-tx-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_SpringIOC-02/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/src/com/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/src/com/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/src/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/src/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Demo/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/src/com/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/src/com/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/src/com/test/interceptor/AllInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/src/com/test/interceptor/AllInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/src/com/test/interceptor/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/src/com/test/interceptor/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/src/com/test/interceptor/MyInterceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/src/com/test/interceptor/MyInterceptor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/src/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/src/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/jsp/aa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/jsp/aa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/aa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/aa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/bb.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/bb.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Interceptor/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/src/com/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/src/com/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/src/com/test/controller/MyControllerEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/src/com/test/controller/MyControllerEncode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/src/com/test/controller/MyControllerStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/src/com/test/controller/MyControllerStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/src/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/src/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/static.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/static.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-ReqParam/web/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/web/js/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/src/com/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/src/com/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/src/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/src/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/content/forward.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/content/forward.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/content/redirect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/content/redirect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/forward.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/forward.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-Response/web/redirect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/web/redirect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/src/com/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/src/com/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/src/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/src/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/jsp/inside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/jsp/inside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/a/b/c/userDefinedView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/a/b/c/userDefinedView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/forward.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/forward.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/modelAndView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/modelAndView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_SpringMVC-View/web/redirect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/web/redirect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Demo/src/main/java/com/test/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Demo/src/main/java/com/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/java/com/test/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/templates/testListThymeleaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/templates/testListThymeleaf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/templates/testThymeleaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo/src/main/resources/templates/testThymeleaf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Demo/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/java/com/test/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/webapp/WEB-INF/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/webapp/WEB-INF/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_SpringBoot-Quartz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-Quartz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_SpringBoot-Quartz/src/main/java/com/test/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-Quartz/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_SpringBoot-Quartz/src/main/java/com/test/quartz/MyJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-Quartz/src/main/java/com/test/quartz/MyJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_SpringBoot-Quartz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-Quartz/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_SpringBoot-Quartz/src/main/resources/quartz.sql" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-Quartz/src/main/resources/quartz.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_SpringBoot-Quartz/src/test/java/com/test/TestQuartz.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-Quartz/src/test/java/com/test/TestQuartz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/src/main/java/com/test/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Eureka-Server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/ribbon/MyIRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/test/ClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/test/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/test/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/test/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/java/com/test/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service/src/main/java/com/test/ServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service/src/main/java/com/test/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service/src/main/java/com/test/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/java/com/test/ServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/java/com/test/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/java/com/test/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpirngCloud-Ribbon/ribbon-service2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Config-Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java/com/test/ConfigClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Client/src/main/java/com/test/ConfigClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/java/com/test/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Client/src/main/java/com/test/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Config-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/java/com.test/ConfigServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/src/main/java/com.test/ConfigServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Config-Server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java/com/test/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/java/com/test/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/OrderHystrixMain10001.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/OrderHystrixMain10001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentFallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/service/PaymentHystrixService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/java/com/test/springcloud/EurekaMain7001.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/java/com/test/springcloud/EurekaMain7001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-Hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/OpenFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/OpenFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/java/com/test/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud-OpenFeign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jar-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jar-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jh-parent/jh-bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jh-parent/jh-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jh-parent/jh-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jh-parent/jh-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jh-parent/jh-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jh-parent/jh-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-jh-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-jh-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-parent/maven-child/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-parent/maven-child/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-war-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-war-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-war-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-war-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-war-demo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/00_Maven/maven-war-demo/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +398,9 @@
     <option name="groupingKeys">
       <option value="module" />
     </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,20 +423,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\HAND Train\setup\app\apache-maven-3.6.3-bin\apache-maven-3.6.3\repository" />
-        <option name="mavenHome" value="D:\HAND Train\setup\app\apache-maven-3.6.3-bin\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\HAND Train\setup\app\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="downloadDocsAutomatically" value="true" />
-        <option name="downloadSourcesAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1t4fVyZurnGwkJiPIw2pA9PdC1x" />
   <component name="ProjectLevelVcsManager">
@@ -87,30 +446,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09_SpringCloud-Config-Client/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/00_JavaEE" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.3345112" />
+    <property name="project.structure.side.proportion" value="0.2862191" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Learn\Java\java-learn\10_redis" />
       <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Config-Client\src\main\resources" />
       <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Config-Server\src\main\resources" />
       <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Gateway\src\main\resources" />
       <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Gateway\src\main\java" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Hystrix" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Learn\Java\java-learn\09_SpirngCloud-Ribbon\ribbon-appservice\src\main\java" />
-      <recent name="E:\Learn\Java\java-learn\08_dsms-SpringBoot\src\main\webapp\WEB-INF\lib" />
-      <recent name="E:\Learn\Java\java-learn\08_dsms-SpringBoot\src\main\resources\mapper" />
+      <recent name="E:\Learn\Java\java-learn\09_SpringCloud" />
+      <recent name="E:\Learn\Java\java-learn" />
+      <recent name="E:\Learn\Java\java-learn\00_Maven" />
+      <recent name="E:\Learn\Java\java-learn\07_SpringBoot" />
+      <recent name="E:\Learn\Java\java-learn\02_Mybatis" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.test.controller" />
       <recent name="com.test" />
+      <recent name="com.test.controller" />
       <recent name="com.test.bean" />
     </key>
   </component>
@@ -122,7 +492,22 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderHystrixMain10001">
+  <component name="RunManager" selected="Application.Way01_Thread">
+    <configuration name="Way01_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Way01_Thread" />
+      <module name="Create_Thread_Way" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -130,86 +515,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ribbon-client" />
+    <configuration name="DemoApplication.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ClientApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.DemoApplication" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.springcloud.EurekaMain7001" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="09_SpringCloud-OpenFeign" />
+    <configuration name="TestDemoApplication.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.OpenFeignApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TestDemoApplication" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderHystrixMain10001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-feign-hystrix-order10001" />
+    <configuration name="TestDemoApplication.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.springcloud.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.springcloud.OrderHystrixMain10001" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TestDemoApplication" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-hystrix-payment8001" />
+    <configuration name="TestDemoApplication.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.springcloud.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.springcloud.PaymentHystrixMain8001" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TestDemoApplication" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot-Redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.DemoApplication" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -224,19 +609,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ClientApplication" />
-      <item itemvalue="Spring Boot.OpenFeignApplication" />
-      <item itemvalue="Spring Boot.EurekaMain7001" />
-      <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-      <item itemvalue="Spring Boot.OrderHystrixMain10001" />
+      <item itemvalue="Application.Way01_Thread" />
+      <item itemvalue="JUnit.DemoApplication.test" />
+      <item itemvalue="JUnit.TestDemoApplication.test" />
+      <item itemvalue="JUnit.TestDemoApplication.test1" />
+      <item itemvalue="JUnit.TestDemoApplication.test2" />
+      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Spring Boot.OrderHystrixMain10001" />
-        <item itemvalue="Spring Boot.OpenFeignApplication" />
-        <item itemvalue="Spring Boot.ClientApplication" />
+        <item itemvalue="Application.Way01_Thread" />
+        <item itemvalue="JUnit.TestDemoApplication.test2" />
+        <item itemvalue="JUnit.TestDemoApplication.test1" />
+        <item itemvalue="JUnit.TestDemoApplication.test" />
+        <item itemvalue="JUnit.DemoApplication.test" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +648,14 @@
       <workItem from="1622812265671" duration="723000" />
       <workItem from="1622959087118" duration="3294000" />
       <workItem from="1623002957276" duration="3265000" />
-      <workItem from="1623048578654" duration="5718000" />
+      <workItem from="1623048578654" duration="8220000" />
+      <workItem from="1623060544813" duration="2472000" />
+      <workItem from="1623064279775" duration="4238000" />
+      <workItem from="1623165664932" duration="10000" />
+      <workItem from="1623231678431" duration="17301000" />
+      <workItem from="1623932134080" duration="661000" />
+      <workItem from="1626161658689" duration="2776000" />
+      <workItem from="1627443545932" duration="2197000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1622034842482</created>
@@ -320,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622572444830</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="提交">
+      <created>1623058071254</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623058071254</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +735,12 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="162" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="163" />
                 </map>
               </option>
             </State>
