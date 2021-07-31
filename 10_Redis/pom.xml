@@ -11,5 +11,6 @@
     <modules>
         <module>Jedis</module>
         <module>SpringBoot-Redis</module>
+        <module>SpringBoot-Redis-Redisson</module>
     </modules>
 </project>
