@@ -132,7 +132,7 @@
       <module name="Jedis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,7 +164,7 @@
       <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,7 +180,7 @@
       <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,7 +196,7 @@
       <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,7 +212,7 @@
       <module name="SpringBoot-Redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

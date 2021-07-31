@@ -1,4 +1,4 @@
-package com.test;
+package com.test.ThreadTest.Create_Thread_Way;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
