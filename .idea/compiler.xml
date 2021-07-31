@@ -23,13 +23,14 @@
         <module name="maven-jar-demo" />
         <module name="09_SpringCloud-Config-Client" />
         <module name="jh-service" />
+        <module name="jh-bean" />
         <module name="07_SpringBoot-Quartz" />
+        <module name="cloud-consumer-feign-hystrix-order10001" />
         <module name="jh-web" />
         <module name="09_SpringCloud-Config-Server" />
         <module name="ribbon-client" />
         <module name="07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo" />
         <module name="SpringBoot-Redis" />
-        <module name="SpringBoot-Redis-Redisson" />
         <module name="ribbon-service2" />
       </profile>
     </annotationProcessing>
