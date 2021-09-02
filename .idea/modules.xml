@@ -39,10 +39,8 @@
       <module fileurl="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/09_SpringCloud-OpenFeign.iml" filepath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/09_SpringCloud-OpenFeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/09_SpringCloud-Ribbon.iml" filepath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/09_SpringCloud-Ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_Redis/10_Redis.iml" filepath="$PROJECT_DIR$/10_Redis/10_Redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/00_JavaEE/ThreadTest/Create_Thread_Way/Create_Thread_Way.iml" filepath="$PROJECT_DIR$/00_JavaEE/ThreadTest/Create_Thread_Way/Create_Thread_Way.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_Redis/Jedis/Jedis.iml" filepath="$PROJECT_DIR$/10_Redis/Jedis/Jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_Redis/SpringBoot-Redis/SpringBoot-Redis.iml" filepath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/SpringBoot-Redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/00_JavaEE/ThreadTest/ThreadTest.iml" filepath="$PROJECT_DIR$/00_JavaEE/ThreadTest/ThreadTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/cloud-consumer-feign-hystrix-order10001.iml" filepath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/cloud-consumer-feign-hystrix-order10001.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-eureka-server7001/cloud-eureka-server7001.iml" filepath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-eureka-server7001/cloud-eureka-server7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" filepath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" />
@@ -51,7 +49,6 @@
       <module fileurl="file://$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-mapper/jh-mapper.iml" filepath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-mapper/jh-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-service/jh-service.iml" filepath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-service/jh-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-web/jh-web.iml" filepath="$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-web/jh-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/00_Maven/maven-parent/maven-child/maven-child.iml" filepath="$PROJECT_DIR$/00_Maven/maven-parent/maven-child/maven-child.iml" />
       <module fileurl="file://$PROJECT_DIR$/00_Maven/maven-jar-demo/maven-jar-demo.iml" filepath="$PROJECT_DIR$/00_Maven/maven-jar-demo/maven-jar-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/00_Maven/maven-jh-parent/maven-jh-parent.iml" filepath="$PROJECT_DIR$/00_Maven/maven-jh-parent/maven-jh-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/00_Maven/maven-parent/maven-parent.iml" filepath="$PROJECT_DIR$/00_Maven/maven-parent/maven-parent.iml" />

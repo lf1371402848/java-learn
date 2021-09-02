@@ -1,9 +1,9 @@
-package com.test;
+package com.test.ThreadTest.Create_Thread_Way;
 
-public class Way02_Runnable implements Runnable {
+public class Way01_Thread extends Thread{
     public static void main(String[] args) {
-        Way02_Runnable way02 = new Way02_Runnable();
-        new Thread(way02).start();
+        Way01_Thread thread = new Way01_Thread();
+        thread.start();
 
         for (int i = 0; i < 10000; i++) {
             System.out.println(Thread.currentThread().getName()+" "+i);

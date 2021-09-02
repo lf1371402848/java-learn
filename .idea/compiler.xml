@@ -23,7 +23,6 @@
         <module name="maven-jar-demo" />
         <module name="09_SpringCloud-Config-Client" />
         <module name="jh-service" />
-        <module name="maven-child" />
         <module name="jh-bean" />
         <module name="07_SpringBoot-Quartz" />
         <module name="cloud-consumer-feign-hystrix-order10001" />
@@ -79,6 +78,7 @@
       <module name="ribbon-service2" target="1.8" />
       <module name="Springboot-Redis" target="1.8" />
       <module name="SpringBoot-Redis" target="1.8" />
+      <module name="SpringBoot-Redis-Redisson" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -95,6 +95,7 @@
       <module name="09_SpringCloud-OpenFeign" options="-parameters" />
       <module name="09_SpringCloud-Ribbon" options="-parameters" />
       <module name="SpringBoot-Redis" options="-parameters" />
+      <module name="SpringBoot-Redis-Redisson" options="-parameters" />
       <module name="cloud-consumer-feign-hystrix-order10001" options="-parameters" />
       <module name="cloud-consumer-order80" options="-parameters" />
       <module name="cloud-eureka-server7001" options="-parameters" />
