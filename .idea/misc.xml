@@ -60,6 +60,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/10_Redis/SpringBoot-Redis-Redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Redis/pom.xml" />
       </set>
     </option>
   </component>

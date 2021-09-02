@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="提交">
-<<<<<<< HEAD
-=======
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
->>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +54,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\app\Learn\setup\apache-maven-3.6.3\repository" />
-<<<<<<< HEAD
-=======
         <option name="mavenHome" value="D:\app\Learn\setup\apache-maven-3.6.3" />
->>>>>>> origin/master
         <option name="userSettingsFile" value="D:\HAND Train\setup\app\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -279,15 +273,12 @@
       <workItem from="1623165664932" duration="10000" />
       <workItem from="1623231678431" duration="17301000" />
       <workItem from="1623932134080" duration="661000" />
-<<<<<<< HEAD
       <workItem from="1626161658689" duration="2776000" />
       <workItem from="1627443545932" duration="2554000" />
       <workItem from="1630391091861" duration="92000" />
-=======
       <workItem from="1625154222243" duration="504000" />
       <workItem from="1625216943313" duration="188000" />
       <workItem from="1625217389750" duration="1196000" />
->>>>>>> origin/master
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1622034842482</created>
@@ -352,21 +343,12 @@
       <option name="project" value="LOCAL" />
       <updated>1623058071254</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00010" summary="提交">
-      <created>1627459224195</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1627459224195</updated>
-=======
     <task id="LOCAL-00010" summary="s">
       <created>1625218567091</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
       <updated>1625218567091</updated>
->>>>>>> origin/master
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
