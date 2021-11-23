@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="06_dsms-ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="提交">
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/ConcurrentHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/VectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/JDK8/StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/FinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/多态.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/对象初始化顺序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/wait与sleep区别/SleepDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/wait与sleep区别/WaitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/jsp/aa.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/MyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/advice/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/advice/MyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/applicationcontext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +57,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -50,13 +82,25 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/util/RedisUtil.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\app\Learn\setup\apache-maven-3.6.3\repository" />
-        <option name="mavenHome" value="D:\app\Learn\setup\apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\HAND Train\setup\app\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\app\Learn\setup\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1t4fVyZurnGwkJiPIw2pA9PdC1x" />
@@ -64,10 +108,13 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -78,11 +125,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruoyi-cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall-swarm" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2862191" />
+    <property name="project.structure.side.proportion" value="0.2697291" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -94,18 +141,18 @@
       <recent name="com.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Learn\Java\java-learn\10_redis" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Config-Client\src\main\resources" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Config-Server\src\main\resources" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Gateway\src\main\resources" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud-Gateway\src\main\java" />
+      <recent name="E:\Learn\Java\java-learn\SpringCloudTest" />
+      <recent name="E:\Learn\Java\java-learn\SpringCloudTest\SpringCloud-Eureka-Clinet\src\main\resources" />
+      <recent name="E:\Learn\Java\java-learn\07_SpringBoot\07_SpringBoot-MVC-Mybatis-Jsp-Demo\src\main\webapp" />
+      <recent name="E:\Learn\Java\java-learn\04_SpringMVC\04_SpringMVC-Demo\web\WEB-INF\jsp" />
+      <recent name="E:\Learn\Java\java-learn\04_SpringMVC\04_SpringMVC-Demo\web\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Learn\Java\java-learn\SpringCloudTest\src\main\webapp" />
       <recent name="E:\Learn\Java\java-learn\09_SpringCloud" />
       <recent name="E:\Learn\Java\java-learn" />
       <recent name="E:\Learn\Java\java-learn\00_Maven" />
       <recent name="E:\Learn\Java\java-learn\07_SpringBoot" />
-      <recent name="E:\Learn\Java\java-learn\02_Mybatis" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.test" />
@@ -124,22 +171,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDemoApplication.test2">
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TestMain" />
-      <module name="Jedis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.EurekaServerMainApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -147,73 +179,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot-Redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.DemoApplication" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemoApplication.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot-Redis" />
+    <configuration name="EurekaClientMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Eureka-Client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TestDemoApplication" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.EurekaClientMainApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemoApplication.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot-Redis" />
+    <configuration name="EurekaServer1MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Eureka-Server1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TestDemoApplication" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.EurekaServer1MainApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemoApplication.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot-Redis" />
+    <configuration name="EurekaServerMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Eureka-Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.ThreadTest.Create_Thread_Way.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TestDemoApplication" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SpringBoot-Redis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.DemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.EurekaServerMainApplication" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -227,25 +242,123 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="06_dsms-ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52242" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="06_dsms-ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TestMain" />
-      <item itemvalue="JUnit.DemoApplication.test" />
-      <item itemvalue="JUnit.TestDemoApplication.test" />
-      <item itemvalue="JUnit.TestDemoApplication.test1" />
-      <item itemvalue="JUnit.TestDemoApplication.test2" />
-      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.EurekaClientMainApplication" />
+      <item itemvalue="Spring Boot.EurekaServer1MainApplication" />
+      <item itemvalue="Spring Boot.EurekaServerMainApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDemoApplication.test2" />
-        <item itemvalue="JUnit.TestDemoApplication.test1" />
-        <item itemvalue="JUnit.TestDemoApplication.test" />
-        <item itemvalue="JUnit.DemoApplication.test" />
-        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Spring Boot.EurekaClientMainApplication" />
+        <item itemvalue="Spring Boot.EurekaServer1MainApplication" />
+        <item itemvalue="Spring Boot.EurekaServerMainApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1584235" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="" />
@@ -279,6 +392,23 @@
       <workItem from="1625154222243" duration="504000" />
       <workItem from="1625216943313" duration="188000" />
       <workItem from="1625217389750" duration="1196000" />
+      <workItem from="1630984080662" duration="32000" />
+      <workItem from="1630984144315" duration="62000" />
+      <workItem from="1630984305452" duration="2449000" />
+      <workItem from="1630999119726" duration="1556000" />
+      <workItem from="1632402998325" duration="5424000" />
+      <workItem from="1632462978903" duration="5240000" />
+      <workItem from="1632642318933" duration="2875000" />
+      <workItem from="1632729229339" duration="3501000" />
+      <workItem from="1632740938036" duration="5406000" />
+      <workItem from="1634023597595" duration="5367000" />
+      <workItem from="1634103839888" duration="35000" />
+      <workItem from="1634103906904" duration="8354000" />
+      <workItem from="1635776993973" duration="1081000" />
+      <workItem from="1635779016057" duration="37000" />
+      <workItem from="1636789971458" duration="2041000" />
+      <workItem from="1636894916024" duration="9628000" />
+      <workItem from="1637332278384" duration="9263000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1622034842482</created>
@@ -350,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625218567091</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="asdaa">
+      <created>1630602991653</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630602991653</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,19 +498,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="COLUMN_ID_WIDTH">
-                <map>
-                  <entry key="Table.Default.Author.ColumnIdWidth" value="162" />
-                  <entry key="Table.Default.Date.ColumnIdWidth" value="163" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -384,6 +509,7 @@
     <MESSAGE value="提交" />
     <MESSAGE value="s" />
     <MESSAGE value="jjk" />
-    <option name="LAST_COMMIT_MESSAGE" value="jjk" />
+    <MESSAGE value="asdaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdaa" />
   </component>
 </project>

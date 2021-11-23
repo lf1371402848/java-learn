@@ -4,7 +4,7 @@ public class Student {
     private Integer sid;
     private String sname;
     private String fav;
-    private Teacher teacher_by_auto;
+    private Teacher teacher;
 
     @Override
     public String toString() {
@@ -12,7 +12,7 @@ public class Student {
                 "sid=" + sid +
                 ", sname='" + sname + '\'' +
                 ", fav='" + fav + '\'' +
-                ", teacher_by_auto=" + teacher_by_auto +
+                ", teacher=" + teacher +
                 '}';
     }
 
@@ -40,19 +40,19 @@ public class Student {
         this.fav = fav;
     }
 
-    public Student(Integer sid, String sname, String fav, Teacher teacher_by_auto) {
+    public Student(Integer sid, String sname, String fav, Teacher teacher) {
         this.sid = sid;
         this.sname = sname;
         this.fav = fav;
-        this.teacher_by_auto = teacher_by_auto;
+        this.teacher = teacher;
     }
 
-    public Teacher getTeacher_by_auto() {
-        return teacher_by_auto;
+    public Teacher getTeacher() {
+        return teacher;
     }
 
-    public void setTeacher_by_auto(Teacher teacher_by_auto) {
-        this.teacher_by_auto = teacher_by_auto;
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
     }
 
     public Student() {

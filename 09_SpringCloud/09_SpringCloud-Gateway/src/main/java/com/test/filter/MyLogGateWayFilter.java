@@ -10,12 +10,19 @@ import reactor.core.publisher.Mono;
 import java.util.Date;
 
 @Component
+//GlobalFilter全局过滤，Ordered 指定过滤器执行的顺序
 public class MyLogGateWayFilter implements GlobalFilter, Ordered {
     @Override
     public int getOrder() {
         return 0;
     }
 
+    /**
+     *
+     * @param exchange:封装了request和response上下文
+     * @param chain：网关过滤器链
+     * @return
+     */
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         System.out.println("***********come in MyLogGateWayFilter:  " + new Date());

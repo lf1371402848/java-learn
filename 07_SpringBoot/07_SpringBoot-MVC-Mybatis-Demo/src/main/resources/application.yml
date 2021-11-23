@@ -1,7 +1,7 @@
 # 端口配置
 server:
   port: 10086
-#配置数据库连接参数
+# 配置数据库连接参数
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver

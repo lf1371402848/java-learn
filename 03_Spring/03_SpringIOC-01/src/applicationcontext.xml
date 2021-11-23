@@ -31,7 +31,7 @@
             <property name="sid" value="1"/>
             <property name="sname" value="张三"/>
             <property name="fav" value="student_by_di"/>
-            <property name="teacher_by_auto" ref="teacher_by_di"/>
+            <property name="teacher" ref="teacher_by_di"/>
         </bean>
         <bean id="teacher_by_di" class="com.test.bean.Teacher">
             <property name="tid" value="1"/>
@@ -40,38 +40,38 @@
         </bean>
     <!-- 自动注入：Spring容器对象依赖关系的注入规则，Spring容器对象自动根据规则完成依赖关系的注入 -->
         <!-- 1、通过byName方式：按照属性名和某个bean的id相同的规则自动注入 -->
-        <bean id="student_by_AutoName" class="com.test.bean.Student" autowire="byName">
+        <bean id="student_by_autoName" class="com.test.bean.Student" autowire="byName">
             <property name="sid" value="1"/>
             <property name="sname" value="张三"/>
             <property name="fav" value="学习"/>
         </bean>
-        <bean id="teacher_by_auto" class="com.test.bean.Teacher">
+        <bean id="teacher_by_autoName" class="com.test.bean.Teacher">
             <property name="tid" value="1"/>
             <property name="tname" value="李四"/>
             <property name="fav" value="teacher_by_AutoName"/>
         </bean>
         <!-- 2、通过byType方式：按照属性的类型和某个bean的类型相同的规则自动注入
                 注意：同类型的bean不能重复注入-->
-            <bean id="student_by_AutoType" class="com.test.bean.Student" autowire="byType">
+            <!--<bean id="student_by_autoType" class="com.test.bean.Student" autowire="byType">
                 <property name="sid" value="1"/>
                 <property name="sname" value="张三"/>
                 <property name="fav" value="学习"/>
             </bean>
-            <bean id="teacher_by_auto" class="com.test.bean.Teacher">
+            <bean id="teacher_by_autoType" class="com.test.bean.Teacher">
                 <property name="tid" value="1"/>
                 <property name="tname" value="李四"/>
-                <property name="fav" value="teacher_by_AutoType"/>
-            </bean>
+                <property name="fav" value="teacher_by_autoType"/>
+            </bean>-->
         <!-- 3、通过constructor方式：必须声明对应的构造器,根据构造器形参的类型和某个bean的类型相同的规则自动注入 -->
-        <bean id="student_by_AutoConstructor" class="com.test.bean.Student" autowire="constructor">
+        <bean id="student_by_autoConstructor" class="com.test.bean.Student" autowire="constructor">
             <constructor-arg index="0" name="sid" type="java.lang.Integer" value="1"/>
             <constructor-arg index="1" name="sname" type="java.lang.String" value="张三"/>
-            <constructor-arg index="2" name="fav" type="java.lang.String" value="student_by_AutoConstructor"/>
+            <constructor-arg index="2" name="fav" type="java.lang.String" value="student_by_autoConstructor"/>
         </bean>
-        <bean id="teacher_by_auto" class="com.test.bean.Teacher">
+        <bean id="teacher_by_autoConstructor" class="com.test.bean.Teacher">
             <property name="tid" value="1"/>
             <property name="tname" value="李四"/>
-            <property name="fav" value="teacher_by_AutoConstructor"/>
+            <property name="fav" value="teacher_by_autoConstructor"/>
         </bean>
     <!-- 单例模式：默认模式，在bean标签上使用scope属性，默认值为singleton
          多例模式：在bean标签上使用scope属性设置，值为prototype -->

@@ -11,12 +11,13 @@ spring:
       server:
         git:
           uri: git@github.com:zzyybs/springcloud-config.git #GitHub上面的git仓库名字
+          username: root
+          password: root
           #搜索目录
           search-paths:
             - springcloud-config
       #默认读取分支
       label: master
-
 # Eureka配置
 eureka:
   client:
