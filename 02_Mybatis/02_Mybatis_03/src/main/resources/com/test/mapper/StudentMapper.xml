@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- com.test.mapper.StudentMapper是我们定义接口的全限定名字 这样就可以使用接口调用映射的SQL语句了 这个名字一定要和接口对应上-->
+<mapper namespace="com.test.mapper.StudentMapper">
+    <cache/>
+
+    <resultMap id="studentMap" type="student">
+        <id column="sid" property="sid"/>
+        <result column="sno" property="sno"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <select id="findAll" resultType="student">
+        select *
+        from student
+    </select>
+
+    <select id="findStuById" resultMap="studentMap" parameterType="int">
+        select *
+        from student
+        where sid = #{sid}
+    </select>
+
+    <select id="findStuBySnoAndName1" resultMap="studentMap" parameterType="student">
+        <!-- select * from student where sno = #{arg0} and name = #{arg1} -->
+        select * from student where sno = #{param1} and name = #{param2}
+    </select>
+
+    <select id="findStuBySnoAndName2" resultMap="studentMap" parameterType="student">
+        select *
+        from student
+        where sno = #{sno}
+          and name = #{name}
+    </select>
+
+    <select id="findStuBySnoAndName3" resultMap="studentMap" parameterType="student">
+        select *
+        from student
+        where sno = #{sno}
+          and name = #{name}
+    </select>
+
+    <select id="findStuBySnoAndNameIf" resultMap="studentMap" parameterType="student">
+        select *
+        from student
+        <where>
+            <if test="sno != null">
+                and sno = #{sno}
+            </if>
+            <if test="name != null">
+                and name = #{name}
+            </if>
+        </where>
+    </select>
+
+    <select id="updateStudent" resultMap="studentMap" parameterType="student">
+        update student
+        set sno  = #{sno},
+            name = #{name}
+        where sid = #{sid}
+    </select>
+
+    <select id="updateStudentSet" resultMap="studentMap" parameterType="student">
+        update student
+        <set>
+            <if test="sno != null">
+                sno = #{sno},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+        </set>
+        where sid = #{sid}
+    </select>
+
+    <insert id="insertStudent" parameterType="student">
+        <selectKey keyColumn="sid" keyProperty="sid" resultType="int" order="BEFORE">
+            select student_s.nextval from dual
+        </selectKey>
+
+        insert into student (sid,sno,name,age) values(#{sid},#{sno},#{name},#{age})
+    </insert>
+</mapper>

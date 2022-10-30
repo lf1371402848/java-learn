@@ -2,7 +2,7 @@ package com.test.controller;
 
 
 import com.test.bean.User;
-import com.test.service.UserService;
+import com.test.feign.UserServiceFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,7 +18,7 @@ import java.util.Map;
 @Controller
 public class UserController {
     @Autowired
-    private UserService userService;
+    private UserServiceFeign userService;
 
     @RequestMapping(value="/save",method = RequestMethod.POST)
     @ResponseBody

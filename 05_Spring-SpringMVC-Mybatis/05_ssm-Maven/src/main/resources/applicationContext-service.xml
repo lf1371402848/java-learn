@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.0.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+    <!-- 扫描添加了spring注解的类 -->
+    <context:component-scan base-package="com.test.service"/>
+    <!-- 配置事务管理器 -->
+    <bean id="TransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!-- 配置事务拦截器 -->
+    <!--<tx:advice id="advice" transaction-manager="TransactionManager">
+        &lt;!&ndash; 注入事务属性 &ndash;&gt;
+        <tx:attributes>
+            <tx:method name="sel*" read-only="true"/>
+            <tx:method name="ins*"/>
+            <tx:method name="up*"/>
+            <tx:method name="del*"/>
+        </tx:attributes>
+    </tx:advice>
+    &lt;!&ndash; spring的aop配置 &ndash;&gt;
+    <aop:config>
+        &lt;!&ndash;声明业务方法的切点&ndash;&gt;
+        <aop:pointcut id="mp" expression="execution(* com.test.service.*.*(..))"/>
+        &lt;!&ndash;增加事务通知&ndash;&gt;
+        <aop:advisor advice-ref="advice" pointcut-ref="mp"/>
+    </aop:config>-->
+    <tx:annotation-driven transaction-manager="TransactionManager"/>
+</beans>

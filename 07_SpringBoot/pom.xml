@@ -15,5 +15,6 @@
         <module>07_SpringBoot-MVC-Mybatis-Jsp-Demo</module>
         <module>07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo</module>
         <module>07_SpringBoot-Quartz</module>
+        <module>07_SpringBoot-MVC-MyBatis-Thymeleaf-Demo</module>
     </modules>
 </project>

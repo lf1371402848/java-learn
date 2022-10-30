@@ -16,3 +16,25 @@ eureka:
 feign:
   hystrix:
     enabled: true
+
+#配置hystrix超时设置 快速向客户端返回降级结果, 默认超时时间是1000毫秒
+hystrix:
+  threadPool: #线程池
+    default: #默认配置
+      coreSize: 10 #线程池线程数量
+      maxQueueSize: 200 #缓冲区数量， 如果为-1，则不缓冲，直接进行降级熔断 fallback
+      queueSizeRejectionThreshold: 2 # 缓冲区大小超限的阈值，超限就直接降级熔断
+  command:
+    # 这是默认的配置
+    default:
+      circuitBreaker:
+        enabled: true
+        forceOpen: false #断路器强制打开
+        forceClosed: false #断路器强制关闭
+        requestVolumeThreshold: 4 #设置在滚动时间窗中，断路器熔断的最小请求数
+        errorThresholdPercentage: 50 #触发熔断错误比例阈值
+        sleepWindowInMilliseconds: 10000 #熔断后休眠时长
+      execution:
+        isolation:
+          thread:
+            timeoutinMilliseconds: 2000

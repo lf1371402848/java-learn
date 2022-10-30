@@ -17,7 +17,7 @@
     <context:component-scan base-package="com.test.service"/>
     <!-- 配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"></property>
+        <property name="dataSource" ref="dataSource"/>
     </bean>
     <!-- 配置事务拦截器 -->
     <tx:advice id="advice" transaction-manager="transactionManager">
@@ -34,7 +34,7 @@
         <!--声明业务方法的切点-->
         <aop:pointcut id="mp" expression="execution(* com.test.service.*.*(..))"/>
         <!--增加事务通知-->
-        <aop:advisor advice-ref="advice" pointcut-ref="mp"></aop:advisor>
+        <aop:advisor advice-ref="advice" pointcut-ref="mp"/>
     </aop:config>
 </beans>
 

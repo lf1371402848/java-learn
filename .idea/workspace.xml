@@ -2,44 +2,894 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="06_dsms-ssm:war exploded" />
+      <artifact name="05_ssm_web:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/ConcurrentHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/VectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/JDK8/StreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/FinalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/InterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/多态.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/对象初始化顺序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/wait与sleep区别/SleepDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/wait与sleep区别/WaitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/web/WEB-INF/jsp/aa.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="582348a3-fdef-403e-919b-7f6efef4a28c" name="Changes" comment="提交">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/00_JavaEE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/CreateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/SleepThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/aaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/bbb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_JavaEE/srm/ccc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00_Maven/maven-parent/maven-child/maven-child.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_JDBC/01_JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_01/02_Mybatis_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_02/02_Mybatis_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/src/main/java/com/test/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/src/main/java/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/src/main/java/com/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/src/main/resources/com/test/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/03_Spring-Proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Spring/03_Spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/03_SpringAOP-Anno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Aspectj/03_SpringAOP-Aspectj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-SchemaBase/03_SpringAOP-SchemaBase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/03_SpringIOC-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-02/03_SpringIOC-02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Demo/04_SpringMVC-Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Interceptor/04_SpringMVC-Interceptor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven/src/main/web/WEB-INF/content/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven/src/main/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-ReqParam/04_SpringMVC-ReqParam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Response/04_SpringMVC-Response.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-View/04_SpringMVC-View.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_Spring-SpringMVC-Mybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/java/com/test/dao/CourseCommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/java/com/test/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/java/com/test/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/java/com/test/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/resources/mapper/CourseCommentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/resources/mapper/CourseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/src/test/java/com/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/ActivityCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/CourseComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/CourseCommentFavoriteRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/CourseLesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/CourseMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/CourseSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/UserCourseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/src/main/java/com/test/entity/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/comment/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/comment/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/course/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/course/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/order/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/java/com/test/user/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/test/java/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/comment/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/comment/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/course/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/course/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/java/com/test/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/resources/spring-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/05_ssm-Jar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/java/com/test/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/java/com/test/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/java/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/java/com/test/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/resources/com/test/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_dao/src/main/java/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_dao/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_dao/src/main/resources/com/test/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_dao/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_domain/src/main/java/com/test/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_service/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_service/src/main/java/com/test/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_service/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/05_ssm_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/src/main/java/com/test/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/05_ssm_web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_dsms-ssm/06_dsms-ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/07_SpringBoot-MVC-Mybatis-Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/java/com/test/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/java/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/java/com/test/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/java/com/test/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/resources/templates/testListThymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/main/resources/templates/testThymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_dsms-SpringBoot/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-comment-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-course-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-eureka-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-gateway-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-gateway-boot/src/main/java/com/test/LagouCloudGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-gateway-boot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-order-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-order-boot/src/main/java/com/test/eduorderboot/config/ShardingJdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-pay-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-pay-boot/src/main/java/com/test/edupayboot/commons/PayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-pay-boot/src/main/java/com/test/edupayboot/controller/WxPayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-user-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/java/com/test/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/java/com/test/feign/TrainerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/java/com/test/mapper/DsmsCarsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/java/com/test/service/impl/CarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/java/com/test/service/interf/ICarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/resources/mapper/DsmsCarsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/analysises/car_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/analysises/people_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/analysises/school_InOut.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/cars/car_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/cars/car_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/cars/car_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/change_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/chartjs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_order_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_order_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_ordered.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_plan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_plan_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_plan_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_result_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/exams/exam_result_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/car_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/car_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/car_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/employee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/employee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/employee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/other_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/other_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/other_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/trainee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/trainee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/finances/trainee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/forget_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/forms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/system/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/trainees/trainee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/trainees/trainee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/trainees/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/trainers/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/trainers/trainer_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/trainers/trainer_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/content/trainers/trainer_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/WEB-INF/lib/ojdbc7-12.1.0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fa-brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fa-brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fa-regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fa-regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fa-solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fa-solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/img/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/img/trainee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/img/trainer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/carbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/change_pwd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/chart/car_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/chart/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/chart/people_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/chart/school_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/check_formInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/img_change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/src/main/webapp/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsAdmins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsAdminsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsCars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsCarsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsExamOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsExamOrdersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsExamPlans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsExamPlansExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsExamResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsExamResultsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsFinances.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsFinancesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsLogsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsTrainees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsTraineesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsTrainers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/src/main/java/com/test/bean/DsmsTrainersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Eureka-Server9000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Eureka-Server9000/src/main/java/com/test/EurekaServerApplication9000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Eureka-Server9000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/controller/ExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/feign/TraineeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/mapper/DsmsExamOrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/mapper/DsmsExamPlansMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/mapper/DsmsExamResultsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/service/impl/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/service/interf/IExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/resources/mapper/DsmsExamOrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/resources/mapper/DsmsExamPlansMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/resources/mapper/DsmsExamResultsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/analysises/car_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/analysises/people_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/analysises/school_InOut.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/cars/car_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/cars/car_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/cars/car_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/change_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/chartjs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_order_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_order_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_ordered.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_plan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_plan_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_plan_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_result_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/exams/exam_result_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/car_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/car_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/car_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/employee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/employee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/employee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/other_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/other_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/other_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/trainee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/trainee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/finances/trainee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/forget_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/forms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/system/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/trainees/trainee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/trainees/trainee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/trainees/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/trainers/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/trainers/trainer_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/trainers/trainer_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/content/trainers/trainer_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/WEB-INF/lib/ojdbc7-12.1.0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fa-brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fa-brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fa-regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fa-regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fa-solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fa-solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/img/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/img/trainee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/img/trainer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/carbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/change_pwd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/chart/car_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/chart/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/chart/people_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/chart/school_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/check_formInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/img_change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/webapp/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/controller/AnalysisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/controller/FinanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/controller/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/controller/TrainerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/feign/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/feign/TraineeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/feign/TrainerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/mapper/DsmsAdminsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/mapper/DsmsFinancesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/mapper/DsmsLogsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/impl/AnalysisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/impl/FinanceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/impl/SystemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/interf/IAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/interf/IAnalysisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/interf/IFinanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/java/com/test/service/interf/ISystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/resources/mapper/DsmsAdminsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/resources/mapper/DsmsFinancesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/resources/mapper/DsmsLogsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/analysises/car_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/analysises/people_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/analysises/school_InOut.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/cars/car_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/cars/car_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/cars/car_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/change_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/chartjs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_order_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_order_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_ordered.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_plan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_plan_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_plan_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_result_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/exams/exam_result_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/car_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/car_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/car_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/employee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/employee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/employee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/other_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/other_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/other_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/trainee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/trainee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/finances/trainee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/forget_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/forms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/system/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/trainees/trainee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/trainees/trainee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/trainees/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/trainers/trainer_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/trainers/trainer_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/content/trainers/trainer_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/WEB-INF/lib/ojdbc7-12.1.0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fa-brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fa-brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fa-regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fa-regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fa-solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fa-solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/img/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/img/trainee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/img/trainer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/carbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/change_pwd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/chart/car_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/chart/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/chart/people_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/chart/school_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/check_formInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/img_change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9050/src/main/webapp/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/java/com/test/controller/TraineeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/java/com/test/feign/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/java/com/test/feign/TrainerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/java/com/test/mapper/DsmsTraineesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/java/com/test/service/impl/TraineeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/java/com/test/service/interf/ITraineeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/resources/mapper/DsmsTraineesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/analysises/car_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/analysises/people_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/analysises/school_InOut.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/cars/car_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/cars/car_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/cars/car_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/change_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/chartjs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_order_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_order_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_ordered.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_plan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_plan_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_plan_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_result_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/exams/exam_result_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/car_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/car_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/car_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/employee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/employee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/employee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/other_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/other_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/other_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/trainee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/trainee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/finances/trainee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/forget_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/forms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/system/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/trainees/trainee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/trainees/trainee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/trainees/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/trainers/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/trainers/trainer_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/trainers/trainer_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/content/trainers/trainer_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/WEB-INF/lib/ojdbc7-12.1.0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fa-brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fa-brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fa-regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fa-regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fa-solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fa-solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/img/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/img/trainee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/img/trainer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/carbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/change_pwd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/chart/car_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/chart/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/chart/people_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/chart/school_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/check_formInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/img_change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9070/src/main/webapp/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/java/com/test/controller/TrainerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/java/com/test/feign/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/java/com/test/feign/TraineeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/java/com/test/mapper/DsmsTrainersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/java/com/test/service/impl/TrainerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/java/com/test/service/interf/ITrainerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/resources/mapper/DsmsTrainersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/analysises/car_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/analysises/people_Num.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/analysises/school_InOut.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/cars/car_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/cars/car_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/cars/car_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/change_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/chartjs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_order_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_order_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_ordered.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_plan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_plan_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_plan_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_result_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/exams/exam_result_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/car_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/car_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/car_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/employee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/employee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/employee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/other_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/other_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/other_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/trainee_fee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/trainee_fee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/finances/trainee_fee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/forget_pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/forms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/system/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/trainees/trainee_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/trainees/trainee_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/trainees/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/trainers/trainee_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/trainers/trainer_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/trainers/trainer_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/content/trainers/trainer_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/WEB-INF/lib/ojdbc7-12.1.0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fa-brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fa-brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fa-regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fa-regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fa-solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fa-solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/css/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/img/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/img/trainee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/img/trainer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/carbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/change_pwd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/chart/car_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/chart/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/chart/people_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/chart/school_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/check_formInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/img_change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9060/src/main/webapp/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_dsms-SpringCloud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/10_Redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/Jedis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/Jedis/src/main/java/com/test/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis-Redisson/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis-Redisson/src/main/java/com/test/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis-Redisson/src/main/java/com/test/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis-Redisson/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis-Redisson/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/src/main/java/com/test/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/src/main/java/com/test/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/src/main/java/com/test/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/src/main/java/com/test/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/SpringBoot-Redis/src/test/java/com/test/TestDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/hm-dianping/src/main/java/com/hmdp/utils/RefreshTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/EurekaClient8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/EurekaClient8003/src/main/java/com/test/EurekaClient8003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/EurekaClient8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/EurekaServer8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/EurekaServer8001/src/main/java/com/test/EurekaServer8001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/EurekaServer8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring/03_Spring-Proxy/src/com/test/dynamic_proxy_cglib/MyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/ArrayListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/ConcurrentHashMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/HashMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/LinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/CollectionTest/VectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/JDK8/StreamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/FinalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/InterfaceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/多态.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/OOPTest/对象初始化顺序.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/Create_Thread_Way/Way01_Thread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/Create_Thread_Way/Way02_Runnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/Create_Thread_Way/Way03_Callable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/wait与sleep区别/SleepDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_JavaEE/src/com/test/ThreadTest/wait与sleep区别/WaitDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/advice/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/advice/MyAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/applicationcontext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/applicationcontext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringIOC-01/src/com/test/bean/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/java/com/test/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring/03_SpringAOP-Anno/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/com/test/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/com/test/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/com/test/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/com/test/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/com/test/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/com/test/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/com/test/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/com/test/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/com/test/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/com/test/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/com/test/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/com/test/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/src/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/src/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/jsp/aa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/jsp/aa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/aopalliance.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/aopalliance.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/asm-3.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/cglib-2.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javassist-3.17.1-GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.annotation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.jms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.jms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.resource.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.resource.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.servlet.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.servlet.jsp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/javax.transaction.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/log4j-api-2.0-rc1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/log4j-core-2.0-rc1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/mybatis-3.5.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/mybatis-spring-2.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/mysql-connector-java-8.0.24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/mysql-connector-java-8.0.24.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-aop-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-aspects-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-beans-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-context-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-core-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-expression-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-jdbc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-jdbc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-tx-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-tx-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-web-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/spring-webmvc-5.1.11.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Jar/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_dsms-ssm/src/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06_dsms-ssm/src/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/java/com/test/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/07_SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_dsms-SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/08_dsms-SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Config-Client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Eureka-Server/src/main/java/com/test/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Eureka-Server/src/main/java/com/test/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/java/com/test/springcloud/controller/OrderHystirxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-consumer-feign-hystrix-order10001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Hystrix/cloud-provider-hystrix-payment8001/src/main/java/com/test/springcloud/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/java/com/test/feign/UserServiceFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-OpenFeign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/test/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_SpringCloud/09_SpringCloud-Ribbon/ribbon-client/src/main/java/com/test/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/Jedis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/Jedis/src/main/java/com/test/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis-Redisson/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis-Redisson/src/main/java/com/test/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis-Redisson/src/main/java/com/test/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis-Redisson/src/main/java/com/test/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis-Redisson/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/pojo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/util/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/test/java/com/test/TestDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Redis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annotation/src/Annotation/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annotation/src/Annotation/People.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annotation/src/TestAnno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-common/ruoyi-common-core/src/main/java/com/ruoyi/common/config/thread/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-common/ruoyi-common-core/src/main/java/com/ruoyi/common/config/thread/ThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-auth-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-auth-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-auth-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-dfs-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-gateway-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-gateway-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-gateway-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-gen-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-system-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-system-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-config/src/main/resources/config/ruoyi-system-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-gateway/src/main/java/com/ruoyi/gateway/fiflt/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-gateway/src/main/java/com/ruoyi/gateway/fiflt/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-service/ruoyi-auth/src/main/java/com/ruoyi/auth/service/SysLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi-cloud/ruoyi-service/ruoyi-auth/src/main/java/com/ruoyi/auth/service/SysLoginService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +908,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +920,8 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mall-swarm" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -79,8 +931,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/10_Redis/SpringBoot-Redis/src/main/java/com/test/util/RedisUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/src/main/resources/spring-service.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/src/main/java/com/test/service/impl/ExamServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/11_Redis/SpringBoot-Redis/src/main/java/com/test/util/RedisUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/11_Redis/hm-dianping/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -89,49 +947,68 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\app\Learn\setup\apache-maven-3.6.3\repository" />
-        <option name="userSettingsFile" value="D:\app\Learn\setup\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\Learn\maven_repository" />
+        <option name="mavenHome" value="D:/app/Learn/setup/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\app\Learn\setup\apache-maven-3.6.3\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="1t4fVyZurnGwkJiPIw2pA9PdC1x" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall-swarm" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2697291" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Learn/Java/java-learn/11_Redis/hm-dianping/src/main/java/com/hmdp/config&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31149426&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;42d723d5a1095631b8108bfa82fe575f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;,
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -141,26 +1018,28 @@
       <recent name="com.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Learn\Java\java-learn\SpringCloudTest" />
-      <recent name="E:\Learn\Java\java-learn\SpringCloudTest\SpringCloud-Eureka-Clinet\src\main\resources" />
-      <recent name="E:\Learn\Java\java-learn\07_SpringBoot\07_SpringBoot-MVC-Mybatis-Jsp-Demo\src\main\webapp" />
-      <recent name="E:\Learn\Java\java-learn\04_SpringMVC\04_SpringMVC-Demo\web\WEB-INF\jsp" />
-      <recent name="E:\Learn\Java\java-learn\04_SpringMVC\04_SpringMVC-Demo\web\js" />
+      <recent name="E:\Learn\Java\java-learn\11_Redis\hm-dianping\src\main\java\com\hmdp\config" />
+      <recent name="E:\Learn\Java\java-learn\11_Redis\hm-dianping\src\main\java\com\hmdp\utils" />
+      <recent name="E:\Learn\Java\java-learn\08_dsms-SpringBoot\src\main\resources" />
+      <recent name="E:\Learn\Java\java-learn\09_SpringCloud\09_edu-lagou\edu-comment-boot\src\main\resources\mybatis\mapper" />
+      <recent name="E:\Learn\Java\java-learn\09_SpringCloud\09_edu-lagou\edu-api\src\main\java\com\test\eduapi\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Learn\Java\java-learn\SpringCloudTest\src\main\webapp" />
-      <recent name="E:\Learn\Java\java-learn\09_SpringCloud" />
-      <recent name="E:\Learn\Java\java-learn" />
-      <recent name="E:\Learn\Java\java-learn\00_Maven" />
-      <recent name="E:\Learn\Java\java-learn\07_SpringBoot" />
+      <recent name="E:\Learn\Java\java-learn\11_Redis" />
+      <recent name="E:\Learn\Java\java-learn\00_JavaEE\srm" />
+      <recent name="E:\Learn\Java\java-learn\05_Spring-SpringMVC-Mybatis\05_lagou-edu-parent\lagou-edu-dao\src\main\resources\mapper" />
+      <recent name="E:\Learn\Java\java-learn\05_Spring-SpringMVC-Mybatis\05_lagou-edu-parent\lagou-edu-dao\src\main\resources" />
+      <recent name="E:\Learn\Java\java-learn\05_Spring-SpringMVC-Mybatis\05_lagou-edu-parent\lagou-edu-dao\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.test.controller" />
-      <recent name="com.test" />
-      <recent name="com.test.bean" />
+      <recent name="com.hmdp.utils" />
+      <recent name="com.test.eduorderboot.config" />
+      <recent name="com.test.edupayboot.commons" />
+      <recent name="com.test.edupayboot.controller" />
+      <recent name="com.test.educommentboot.mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,7 +1050,62 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerMainApplication">
+  <component name="RunManager" selected="Application.Test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CreateThread" />
+      <module name="00_JavaEE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleepThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SleepThread" />
+      <module name="00_JavaEE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="00_JavaEE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TestMain" />
+      <module name="Jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -179,65 +1113,262 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="07_SpringBoot_MVC-Mybatis-lombok" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test._07_springboot_lombok.Application" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaClientMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringCloud-Eureka-Client" />
+    <configuration name="EduApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.eduapi.EduApiApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduCommentBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-comment-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.educommentboot.EduCommentBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduCourseBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-course-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.educourseboot.EduCourseBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduEurekaBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-eureka-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edueurekaboot.EduEurekaBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduGatewayBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-gateway-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edugatewayboot.EduGatewayBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduLagouApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="09_edu-lagou" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edulagou.EduLagouApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduOrderBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-order-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.eduorderboot.EduOrderBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduPayBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-pay-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.edupayboot.EduPayBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduUserBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-user-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.eduuserboot.EduUserBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduUserBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="edu-user-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.EduUserBootApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.EurekaClientMainApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer1MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringCloud-Eureka-Server1" />
+    <configuration name="HmDianPingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hm-dianping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmdp.HmDianPingApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="08_dsms-SpringBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.MainApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.EurekaServer1MainApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringCloud-Eureka-Server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.EurekaServerMainApplication" />
+    <configuration name="MallAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.macro.mall.MallAdminApplication" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.macro.mall.auth.MallAuthApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.macro.mall.MallDemoApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.macro.mall.MallGatewayApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.macro.mall.MallMonitorApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-portal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.macro.mall.portal.MallPortalApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.macro.mall.search.MallSearchApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoYiAuthApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiAuthApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoYiDfsApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-dfs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiDfsApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoYiGenApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-gen" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiGenApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoYiSystemApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiSystemApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoyiActApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-activiti" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoyiActApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoyiConfigApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.config.RuoyiConfigApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoyiEurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.eureka.RuoyiEurekaApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoyiGatewayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.gateway.RuoyiGatewayApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuoyiMonitorApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruoyi-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.monitor.RuoyiMonitorApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SrmSaasCuxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="srm-saas-cux-21944" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inja.SrmSaasCuxApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,9 +1377,9 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="06_dsms-ssm:war exploded">
+        <artifact name="05_ssm_web:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/05_ssm_web_war" />
           </settings>
         </artifact>
       </deployment>
@@ -293,6 +1424,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -310,21 +1456,53 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="06_dsms-ssm:war exploded" />
+          <artifact name="05_ssm_web:war" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.EurekaClientMainApplication" />
-      <item itemvalue="Spring Boot.EurekaServer1MainApplication" />
-      <item itemvalue="Spring Boot.EurekaServerMainApplication" />
+      <item itemvalue="Application.TestMain" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.CreateThread" />
+      <item itemvalue="Application.SleepThread" />
+      <item itemvalue="Spring Boot.HmDianPingApplication" />
+      <item itemvalue="Spring Boot.EduApiApplication" />
+      <item itemvalue="Spring Boot.EduCommentBootApplication" />
+      <item itemvalue="Spring Boot.EduCourseBootApplication" />
+      <item itemvalue="Spring Boot.EduEurekaBootApplication" />
+      <item itemvalue="Spring Boot.EduGatewayBootApplication" />
+      <item itemvalue="Spring Boot.EduLagouApplication" />
+      <item itemvalue="Spring Boot.EduOrderBootApplication" />
+      <item itemvalue="Spring Boot.EduPayBootApplication" />
+      <item itemvalue="Spring Boot.MallAdminApplication" />
+      <item itemvalue="Spring Boot.MallAuthApplication" />
+      <item itemvalue="Spring Boot.MallDemoApplication" />
+      <item itemvalue="Spring Boot.MallGatewayApplication" />
+      <item itemvalue="Spring Boot.MallMonitorApplication" />
+      <item itemvalue="Spring Boot.MallPortalApplication" />
+      <item itemvalue="Spring Boot.MallSearchApplication" />
+      <item itemvalue="Spring Boot.RuoYiAuthApp" />
+      <item itemvalue="Spring Boot.RuoYiDfsApp" />
+      <item itemvalue="Spring Boot.RuoYiGenApp" />
+      <item itemvalue="Spring Boot.RuoYiSystemApp" />
+      <item itemvalue="Spring Boot.RuoyiActApp" />
+      <item itemvalue="Spring Boot.RuoyiConfigApp" />
+      <item itemvalue="Spring Boot.RuoyiEurekaApp" />
+      <item itemvalue="Spring Boot.RuoyiGatewayApp" />
+      <item itemvalue="Spring Boot.RuoyiMonitorApp" />
+      <item itemvalue="Spring Boot.SrmSaasCuxApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.EduUserBootApplication" />
+      <item itemvalue="Spring Boot.MainApplication" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaClientMainApplication" />
-        <item itemvalue="Spring Boot.EurekaServer1MainApplication" />
-        <item itemvalue="Spring Boot.EurekaServerMainApplication" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Spring Boot.MainApplication" />
+        <item itemvalue="Application.CreateThread" />
+        <item itemvalue="Application.SleepThread" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +1539,8 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f3a82bf-8bb5-4349-8d99-e165993b747c" name="Default Changelist" comment="" />
+      <changelist id="" name="Default Changelist" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1622033318341</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -409,6 +1588,52 @@
       <workItem from="1636789971458" duration="2041000" />
       <workItem from="1636894916024" duration="9628000" />
       <workItem from="1637332278384" duration="9263000" />
+      <workItem from="1637673005427" duration="6285000" />
+      <workItem from="1638608711635" duration="1150000" />
+      <workItem from="1638609867345" duration="979000" />
+      <workItem from="1638621407848" duration="15498000" />
+      <workItem from="1638685460414" duration="23248000" />
+      <workItem from="1660272701219" duration="1246000" />
+      <workItem from="1660458163214" duration="6380000" />
+      <workItem from="1660505531460" duration="18922000" />
+      <workItem from="1660671646495" duration="37687000" />
+      <workItem from="1661005481951" duration="31655000" />
+      <workItem from="1661342812951" duration="22617000" />
+      <workItem from="1661972297813" duration="3749000" />
+      <workItem from="1662022525427" duration="595000" />
+      <workItem from="1662041826111" duration="7927000" />
+      <workItem from="1662131588208" duration="594000" />
+      <workItem from="1662974977624" duration="7982000" />
+      <workItem from="1663233751831" duration="7659000" />
+      <workItem from="1663307001136" duration="16012000" />
+      <workItem from="1663398784021" duration="13428000" />
+      <workItem from="1663425826902" duration="2709000" />
+      <workItem from="1663484236696" duration="23946000" />
+      <workItem from="1663551964994" duration="8605000" />
+      <workItem from="1663765890742" duration="2634000" />
+      <workItem from="1663770260106" duration="7995000" />
+      <workItem from="1663819477872" duration="100000" />
+      <workItem from="1663824017144" duration="1552000" />
+      <workItem from="1663853120608" duration="614000" />
+      <workItem from="1663863689770" duration="4348000" />
+      <workItem from="1663868093489" duration="1849000" />
+      <workItem from="1664028892785" duration="10765000" />
+      <workItem from="1664110637610" duration="8941000" />
+      <workItem from="1664198224027" duration="2255000" />
+      <workItem from="1664272104350" duration="10126000" />
+      <workItem from="1664366980051" duration="2337000" />
+      <workItem from="1664462308579" duration="619000" />
+      <workItem from="1664863819794" duration="3310000" />
+      <workItem from="1664962141164" duration="769000" />
+      <workItem from="1665061305688" duration="16802000" />
+      <workItem from="1665298771288" duration="2629000" />
+      <workItem from="1665405166268" duration="13666000" />
+      <workItem from="1665630308263" duration="4563000" />
+      <workItem from="1666184685432" duration="6981000" />
+      <workItem from="1666197033834" duration="700000" />
+      <workItem from="1666805369024" duration="1321000" />
+      <workItem from="1666811423548" duration="31565000" />
+      <workItem from="1667164477094" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1622034842482</created>
@@ -487,29 +1712,99 @@
       <option name="project" value="LOCAL" />
       <updated>1630602991653</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="a">
+      <created>1637673105506</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637673105506</updated>
+    </task>
+    <task id="LOCAL-00013" summary="提交">
+      <created>1667165184613</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667165184613</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:io.minio:minio" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交" />
     <MESSAGE value="s" />
     <MESSAGE value="jjk" />
     <MESSAGE value="asdaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="asdaa" />
+    <MESSAGE value="a" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="args" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

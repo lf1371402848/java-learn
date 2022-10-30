@@ -35,8 +35,8 @@ public class UserServiceImpl implements UserService {
         ServiceInstance instance = this.loadBalancerClient.choose("ribbon-service");
         // 访问地址拼接
         StringBuilder builder = new StringBuilder("");
-        builder.append("http://").append(instance.getHost())
-                .append(":").append(instance.getPort()).append("/user/save")
+        builder.append("http://ribbon-service")
+                .append("/user/save")
                 .append("?username=").append(user.getUsername())
                 .append("&password=").append(user.getPassword())
                 .append("&remark=").append(user.getRemark());

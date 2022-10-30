@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/11_Redis/nginx-1.18.0/html/hmdp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mall-swarm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ruoyi-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../srm-saas-cux-21944" vcs="Git" />
   </component>
 </project>

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/00_Maven/maven-jh-parent/jh-web" />
     <file type="web" url="file://$PROJECT_DIR$/00_Maven/maven-war-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven" />
+    <file type="web" url="file://$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service" />
+    <file type="web" url="file://$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-web" />
+    <file type="web" url="file://$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-lagou" />
+    <file type="web" url="file://$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm-Maven" />
+    <file type="web" url="file://$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_ssm_web_test" />
     <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Demo" />
     <file type="web" url="file://$PROJECT_DIR$/07_SpringBoot/07_SpringBoot-MVC-Mybatis-Jsp-Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/10_dsms-SpringCloud/dsms-System-Service9010" />
     <file type="web" url="file://$PROJECT_DIR$/dsms-SSM-1" />
     <file type="web" url="file://$PROJECT_DIR$/mvn-war" />
+    <file type="web" url="file://$PROJECT_DIR$/../../Resource/java/拉勾教育/拉勾教育java就业急训营/第06阶段 企业级开发框架SSM/模块四：SSM单体架构项目（上）/第六阶段模块四课件/任务三/lagou_edu_home_parent/ssm-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -56,14 +65,51 @@
         <option value="$PROJECT_DIR$/10_Redis/SpringBoot-Redis/pom.xml" />
         <option value="$PROJECT_DIR$/10_Redis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudTest/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainee-Service9080/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Trainer-Service9070/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Gateway-Service9020/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Exam-Service9090/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Car-Service9080/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Gateway-Service9010/pom.xml" />
+        <option value="$PROJECT_DIR$/10_dsms-SpringCloud/dsms-Common-Service9040/pom.xml" />
+        <option value="$PROJECT_DIR$/02_Mybatis/Mybatis_03/pom.xml" />
+        <option value="$PROJECT_DIR$/02_Mybatis/02_Mybatis_03/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMVC/SpringMVC-Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMVC/04_SpringMVC-Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/ssm-Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/ssm-lagou/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_lombok/pom.xml" />
+        <option value="$PROJECT_DIR$/07_SpringBoot/07_SpringBoot_MVC-Mybatis-lombok/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Test/SpringCloud-Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/../ruoyi-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/../srm-saas-cux-21944/pom.xml" />
+        <option value="$PROJECT_DIR$/../mall-swarm/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/_07-ssm-lagou-edu/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05-ssm-lagou-edu/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/lagou-edu-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-service/pom.xml" />
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05_lagou-edu-parent/lagou-edu-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/pom.xml" />
+        <option value="$PROJECT_DIR$/09_SpringCloud/09_edu-lagou/edu-eureka-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/../学习资源/黑马程序员/Redis入门到实战教程/02-实战篇/代码/hm-dianping/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Redis/hm-dianping/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/05_Spring-SpringMVC-Mybatis/05-lagou-edu-parent/pom.xml" />
         <option value="$PROJECT_DIR$/10_Redis/SpringBoot-Redis-Redisson/pom.xml" />
         <option value="$PROJECT_DIR$/10_Redis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudTest/SpingCloudTest-Common/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudTest/SpringCloud-Eureka-Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/../mall-swarm/mall-mbg/pom.xml" />
+        <option value="$PROJECT_DIR$/../mall-swarm/mall-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/../mall-swarm/mall-portal/pom.xml" />
       </set>
     </option>
   </component>

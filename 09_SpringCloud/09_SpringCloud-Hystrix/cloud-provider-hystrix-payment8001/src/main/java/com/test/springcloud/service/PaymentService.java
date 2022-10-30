@@ -45,9 +45,19 @@ public class PaymentService {
     //服务熔断
     @HystrixCommand(fallbackMethod = "paymentCircuitBreaker_fallback", commandProperties = {
             @HystrixProperty(name = "circuitBreaker.enabled", value = "true"),// 是否开启断路器
-            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "10"),// 请求次数
-            @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "10000"), // 时间窗口期
-            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "60"),// 失败率达到多少后跳闸
+            // 滚动时间窗设置，该时间用于断路器判断健康度时需要收集信息的持续时间
+            @HystrixProperty(name = "metrics.rollingStats.timeinMilliseconds", value = "10000"),
+            // 该属性用来设置在滚动时间窗中，断路器熔断的最小请求数。例如，默认该值为 20 的时候，
+            // 如果滚动时间窗（默认10秒）内仅收到了19个请求， 即使这19个请求都失败了，断路器也不会打开。
+            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "20"),
+            // 该属性用来设置当断路器打开之后的休眠时间窗。 休眠时间窗结束之后，
+            // 会将断路器置为 "半开" 状态，尝试熔断的请求命令，如果依然失败就将断路器继续设置为 "打开" 状态，
+            // 如果成功就设置为 "关闭" 状态。
+            @HystrixProperty(name = "circuitBreaker.sleepWindowinMilliseconds", value = "5000"),
+            // 该属性用来设置在滚动时间窗中，表示在滚动时间窗中，在请求数量超过
+            // circuitBreaker.requestVolumeThreshold 的情况下，如果错误请求数的百分比超过50,
+            // 就把断路器设置为 "打开" 状态，否则就设置为 "关闭" 状态。
+            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "50"),
     })
     public String paymentCircuitBreaker(@PathVariable("id") Integer id) {
         if (id < 0) {

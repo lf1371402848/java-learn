@@ -12,6 +12,11 @@
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="SRMSnapshot" />
+      <option name="name" value="SRM-Snapshot Repository" />
+      <option name="url" value="http://nexus.saas.hand-china.com/content/repositories/srm-snapshot/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="spring-milestones" />
       <option name="name" value="Spring Milestones" />
       <option name="url" value="https://repo.spring.io/milestone" />
@@ -27,6 +32,11 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="HzeroRelease" />
+      <option name="name" value="Hzero-Release Repository" />
+      <option name="url" value="http://nexus.saas.hand-china.com/content/repositories/Hzero-Release/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
@@ -35,6 +45,21 @@
       <option name="id" value="spring-snapshots" />
       <option name="name" value="Spring Snapshots" />
       <option name="url" value="https://repo.spring.io/snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="SRMRelease" />
+      <option name="name" value="SRM-Release Repository" />
+      <option name="url" value="http://nexus.saas.hand-china.com/content/repositories/srm-release/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="HzeroSnapshot" />
+      <option name="name" value="Hzero-Snapshot Repository" />
+      <option name="url" value="http://nexus.saas.hand-china.com/content/repositories/Hzero-Snapshot/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="HandPublic" />
+      <option name="name" value="Hand-Public Repository" />
+      <option name="url" value="http://nexus.saas.hand-china.com/content/repositories/public/" />
     </remote-repository>
   </component>
 </project>

@@ -9,10 +9,10 @@ spring:
     password: test
     url: jdbc:mysql://localhost:3306/test
     # mvc 配置
-    mvc:
-      view:
-        prefix: /WEB-INF/
-        suffix: .jsp
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
 # mybatis 配置
 mybatis:
   # 加载MyBatis的mapper.xml

@@ -34,7 +34,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--配置SpringBoot整合Mybatis的依赖:SpringBootMybatis启动器-->
+        <!--配置SpringBoot整合Mybatis的依赖:SpringBoot-Mybatis启动器-->
         <!--相当于Spriing+Mybatis的项目开发环境就搭建好了-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
